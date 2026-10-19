@@ -27,6 +27,7 @@ export default function FloatingCTA() {
       <AnimatePresence>
         {showScrollTop && (
           <motion.button
+            type="button"
             onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
             initial={{ scale: 0, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
@@ -36,7 +37,7 @@ export default function FloatingCTA() {
             aria-label="Scroll to top"
             className="flex items-center justify-center w-12 h-12 bg-[#A61E22] text-white rounded-full shadow-xl hover:bg-[#D4AF37] hover:text-white transition-colors duration-300 relative group cursor-pointer focus:outline-hidden"
           >
-            <ArrowUp className="w-5 h-5 text-white group-hover:text-white transition-colors" />
+            <ArrowUp className="w-5 h-5 text-white group-hover:text-white transition-colors" aria-hidden="true" />
             <span className="absolute right-14 bg-[#A61E22] text-white text-xs font-semibold px-3 py-1.5 rounded-md shadow-md opacity-0 pointer-events-none group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap">
               Scroll to Top
             </span>

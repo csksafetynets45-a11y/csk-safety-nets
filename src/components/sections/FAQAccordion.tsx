@@ -94,18 +94,28 @@ export default function FAQAccordion() {
                 className="bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-xs transition-all"
               >
                 <button
+                  type="button"
+                  id={`faq-question-${index}`}
+                  aria-expanded={isOpen}
+                  aria-controls={`faq-answer-${index}`}
                   onClick={() => setOpenIndex(isOpen ? null : index)}
                   className="w-full text-left p-5 sm:p-6 flex items-center justify-between gap-4 font-bold text-slate-900 hover:text-[#A61E22] transition-colors cursor-pointer"
                 >
                   <span className="text-sm sm:text-base">{faq.question}</span>
                   <ChevronDown
+                    aria-hidden="true"
                     className={`w-5 h-5 text-[#D4AF37] shrink-0 transition-transform duration-300 ${
                       isOpen ? "rotate-180" : ""
                     }`}
                   />
                 </button>
                 {isOpen && (
-                  <div className="px-5 sm:px-6 pb-6 text-xs sm:text-sm text-slate-600 leading-relaxed border-t border-slate-100 pt-4">
+                  <div
+                    id={`faq-answer-${index}`}
+                    role="region"
+                    aria-labelledby={`faq-question-${index}`}
+                    className="px-5 sm:px-6 pb-6 text-xs sm:text-sm text-slate-600 leading-relaxed border-t border-slate-100 pt-4"
+                  >
                     {faq.answer}
                   </div>
                 )}
@@ -127,7 +137,7 @@ export default function FAQAccordion() {
               href="tel:+917981910891"
               className="bg-[#D4AF37] hover:bg-[#E6C65A] text-slate-900 px-5 py-3 rounded-xl font-bold text-xs flex items-center gap-2 transition-all shadow-md"
             >
-              <Phone className="w-4 h-4 text-slate-900" />
+              <Phone className="w-4 h-4 text-slate-900" aria-hidden="true" />
               <span>+91 79819 10891</span>
             </a>
             <a
@@ -135,8 +145,9 @@ export default function FAQAccordion() {
               target="_blank"
               rel="noopener noreferrer"
               className="bg-[#25D366] hover:bg-[#20bd5a] text-white px-5 py-3 rounded-xl font-bold text-xs flex items-center gap-2 transition-all shadow-md"
+              aria-label="WhatsApp Chat with CSK Safety Nets"
             >
-              <MessageSquare className="w-4 h-4" />
+              <MessageSquare className="w-4 h-4" aria-hidden="true" />
               <span>WhatsApp Chat</span>
             </a>
           </div>

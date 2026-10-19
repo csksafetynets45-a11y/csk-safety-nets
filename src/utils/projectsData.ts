@@ -89,15 +89,15 @@ export const projectsData: Record<string, ProjectDetail> = {
       "Applied calibrated hydraulic tensioning across all vertical lines (3-inch pitch).",
       "Performed acoustic resonance and tension stability verification.",
     ],
-    image: "/images/main-images/Balcony-Grills.jpg",
+    image: "/images/main-images/Balcony-Grills.webp",
     gallery: [
-      "/images/main-images/Balcony-Grills.jpg",
+      "/images/main-images/Balcony-Grills.webp",
       "/images/services/shyambalconygrills.jpg",
       "/images/services/shyamchildreninvisiblegrills.jpg",
       "/images/services/Shayamstaircase-grills.jpg",
     ],
     beforeImage: "/images/gallery/before_balcony.png",
-    afterImage: "/images/main-images/Balcony-Grills.jpg",
+    afterImage: "/images/main-images/Balcony-Grills.webp",
     specs: [
       { label: "Cable Composition", value: "SS316 Marine Stainless (Bite & Rust Proof)" },
       { label: "Cable Pitch", value: "75mm (3 Inches) Architectural Spacing" },

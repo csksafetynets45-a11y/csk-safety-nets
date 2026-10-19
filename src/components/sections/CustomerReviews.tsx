@@ -85,16 +85,20 @@ export default function CustomerReviews() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.3, delay: idx * 0.05 }}
-              className="p-7 rounded-3xl bg-[#094747] border border-[#8E1A1E]/60 flex flex-col justify-between hover:border-[#D4AF37] transition-all shadow-md group"
+              className="p-7 rounded-3xl bg-[#1A0305] border border-[#4A0A0D] flex flex-col justify-between hover:border-[#D4AF37] transition-all shadow-md group"
             >
               <div>
                 <div className="flex items-center justify-between mb-4">
-                  <div className="flex items-center gap-1 text-[#D4AF37]">
+                  <div
+                    className="flex items-center gap-1 text-[#D4AF37]"
+                    role="img"
+                    aria-label={`${review.rating} out of 5 stars`}
+                  >
                     {[...Array(review.rating)].map((_, i) => (
-                      <Star key={i} className="w-4 h-4 fill-current" />
+                      <Star key={i} className="w-4 h-4 fill-current" aria-hidden="true" />
                     ))}
                   </div>
-                  <Quote className="w-6 h-6 text-[#8E1A1E] group-hover:text-[#D4AF37] transition-colors" />
+                  <Quote className="w-6 h-6 text-[#A61E22] group-hover:text-[#D4AF37] transition-colors" aria-hidden="true" />
                 </div>
 
                 <p className="text-xs sm:text-sm text-slate-200 leading-relaxed mb-6 italic">
@@ -102,11 +106,11 @@ export default function CustomerReviews() {
                 </p>
               </div>
 
-              <div className="pt-4 border-t border-[#8E1A1E]/60 flex items-center justify-between">
+              <div className="pt-4 border-t border-[#4A0A0D] flex items-center justify-between">
                 <div>
                   <h4 className="text-sm font-bold text-white">{review.name}</h4>
                   <div className="flex items-center gap-1 text-slate-400 text-[11px] mt-0.5">
-                    <MapPin className="w-3 h-3 text-[#D4AF37]" />
+                    <MapPin className="w-3 h-3 text-[#D4AF37]" aria-hidden="true" />
                     <span>{review.locality}</span>
                   </div>
                 </div>

@@ -95,10 +95,26 @@ export default function RootLayout({
         {/* Favicon fallback tags for all browsers & search engines */}
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <link rel="shortcut icon" href="/favicon.ico" />
+        {/* LCP Hero Image Preload for fastest FCP/LCP */}
+        <link
+          rel="preload"
+          as="image"
+          href="/images/main-images/Balcony-Grills.webp"
+          fetchPriority="high"
+          type="image/webp"
+        />
       </head>
       <body
         className={`${inter.variable} antialiased bg-white text-slate-900 flex flex-col min-h-screen selection:bg-[#A61E22] selection:text-white`}
       >
+        {/* Skip to Main Content Accessibility Landmark (WCAG 2.1 AA) */}
+        <a
+          href="#main-content"
+          className="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-50 focus:px-4 focus:py-2.5 focus:bg-[#A61E22] focus:text-white focus:rounded-xl focus:shadow-2xl font-bold transition-all"
+        >
+          Skip to main content
+        </a>
+
         {/* LocalBusiness JSON-LD Schema */}
         <Script
           id="local-business-schema"
@@ -107,7 +123,7 @@ export default function RootLayout({
         />
 
         <Navbar />
-        <main className="flex-grow pt-[84px] sm:pt-[92px]">{children}</main>
+        <main id="main-content" className="flex-grow pt-[84px] sm:pt-[92px]">{children}</main>
         <Footer />
         <FloatingCTA />
         <CookieConsent />

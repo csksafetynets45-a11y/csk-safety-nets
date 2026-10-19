@@ -182,16 +182,21 @@ export default function Navbar() {
                       onMouseLeave={handleMouseLeaveServices}
                     >
                       <button
+                        type="button"
+                        id="desktop-mega-menu-trigger"
+                        aria-expanded={isMegaMenuOpen}
+                        aria-haspopup="true"
+                        aria-controls="desktop-mega-menu"
                         onClick={() => setIsMegaMenuOpen(!isMegaMenuOpen)}
                         className={`flex items-center gap-1 text-sm font-bold tracking-wide transition-colors cursor-pointer py-1 ${
                           isMegaMenuOpen || pathname?.startsWith("/services")
                             ? "text-[#A61E22]"
                             : "text-[#A61E22] hover:text-[#D4AF37]"
                         }`}
-                        aria-expanded={isMegaMenuOpen}
                       >
                         <span>{link.label}</span>
                         <ChevronDown
+                          aria-hidden="true"
                           className={`w-4 h-4 transition-transform duration-300 ${
                             isMegaMenuOpen ? "rotate-180 text-[#A61E22]" : "text-slate-400 group-hover:text-[#D4AF37]"
                           }`}
@@ -205,6 +210,9 @@ export default function Navbar() {
                       <AnimatePresence>
                         {isMegaMenuOpen && (
                           <motion.div
+                            id="desktop-mega-menu"
+                            role="region"
+                            aria-labelledby="desktop-mega-menu-trigger"
                             initial={{ opacity: 0, y: 15 }}
                             animate={{ opacity: 1, y: 0 }}
                             exit={{ opacity: 0, y: 10 }}
@@ -353,11 +361,18 @@ export default function Navbar() {
             {/* MOBILE MENU TOGGLE */}
             <div className="flex xl:hidden items-center gap-2">
               <button
+                type="button"
                 onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
                 className="p-2 rounded-xl text-[#A61E22] hover:bg-[#FBF8F8] transition-colors"
                 aria-label="Toggle Navigation Menu"
+                aria-expanded={isMobileMenuOpen}
+                aria-controls="mobile-navigation-drawer"
               >
-                {isMobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+                {isMobileMenuOpen ? (
+                  <X className="w-6 h-6" aria-hidden="true" />
+                ) : (
+                  <Menu className="w-6 h-6" aria-hidden="true" />
+                )}
               </button>
             </div>
           </div>
@@ -368,6 +383,10 @@ export default function Navbar() {
       <AnimatePresence>
         {isMobileMenuOpen && (
           <motion.div
+            id="mobile-navigation-drawer"
+            role="dialog"
+            aria-modal="true"
+            aria-label="Mobile Navigation Menu"
             initial={{ opacity: 0, height: 0 }}
             animate={{ opacity: 1, height: "auto" }}
             exit={{ opacity: 0, height: 0 }}
@@ -381,14 +400,26 @@ export default function Navbar() {
                     return (
                       <div key={link.label} className="py-1">
                         <button
+                          type="button"
                           onClick={() => setMobileServicesOpen(!mobileServicesOpen)}
+                          aria-expanded={mobileServicesOpen}
+                          aria-controls="mobile-services-list"
                           className="w-full flex items-center justify-between py-2 text-base font-bold text-[#A61E22]"
                         >
                           <span>{link.label}</span>
-                          <ChevronDown className={`w-5 h-5 transition-transform ${mobileServicesOpen ? "rotate-180 text-[#D4AF37]" : ""}`} />
+                          <ChevronDown
+                            aria-hidden="true"
+                            className={`w-5 h-5 transition-transform ${
+                              mobileServicesOpen ? "rotate-180 text-[#D4AF37]" : ""
+                            }`}
+                          />
                         </button>
                         {mobileServicesOpen && (
-                          <div className="pl-4 py-2 space-y-3 border-l-2 border-[#A61E22] my-1 bg-[#FBF8F8] rounded-r-xl p-3">
+                          <div
+                            id="mobile-services-list"
+                            role="region"
+                            className="pl-4 py-2 space-y-3 border-l-2 border-[#A61E22] my-1 bg-[#FBF8F8] rounded-r-xl p-3"
+                          >
                             <div className="font-bold text-xs text-[#A61E22] uppercase">Safety Nets</div>
                             {safetyNetsServices.map((s) => (
                               <Link key={s.name} href={s.href} onClick={closeMobileMenu} className="block text-xs font-semibold text-slate-700 py-1">

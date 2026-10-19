@@ -99,7 +99,7 @@ export default function CostCalculator() {
             {/* Step 2: Slider for Area / Quantity */}
             <div>
               <div className="flex justify-between items-center mb-2">
-                <label className="text-xs font-extrabold uppercase tracking-wider text-slate-500">
+                <label htmlFor="calculator-area-range" className="text-xs font-extrabold uppercase tracking-wider text-slate-500">
                   2. Approximate Area / Dimension
                 </label>
                 <span className="text-sm font-black text-[#A61E22] bg-[#FDF8F5] px-3 py-1 rounded-lg border border-[#B2DCDC]">
@@ -107,12 +107,14 @@ export default function CostCalculator() {
                 </span>
               </div>
               <input
+                id="calculator-area-range"
                 type="range"
                 min="40"
                 max="600"
                 step="10"
                 value={areaSqFt}
                 onChange={(e) => setAreaSqFt(Number(e.target.value))}
+                aria-label="Approximate Area or Dimension in square feet"
                 className="w-full h-2.5 bg-slate-200 rounded-lg appearance-none cursor-pointer accent-[#A61E22]"
               />
               <div className="flex justify-between text-[11px] text-slate-400 font-semibold mt-1">

@@ -34,7 +34,7 @@ export default function CookieConsent() {
       className="fixed bottom-4 left-4 right-4 md:left-6 md:right-auto md:max-w-md z-50 bg-[#A61E22] text-white p-5 rounded-2xl shadow-2xl border border-[#8E1A1E] backdrop-blur-md animate-in fade-in slide-in-from-bottom-5 duration-300"
     >
       <div className="flex items-start gap-3">
-        <ShieldCheck className="w-5 h-5 text-[#D4AF37] shrink-0 mt-0.5" />
+        <ShieldCheck className="w-5 h-5 text-[#D4AF37] shrink-0 mt-0.5" aria-hidden="true" />
         <div className="text-xs text-slate-300 leading-relaxed">
           <p className="font-bold text-white mb-1">Privacy &amp; Cookie Policy</p>
           <p>
@@ -49,14 +49,16 @@ export default function CookieConsent() {
       </div>
       <div className="flex items-center justify-end gap-2.5 mt-4 pt-3 border-t border-[#8E1A1E]">
         <button
+          type="button"
           onClick={declineCookies}
           className="px-3.5 py-1.5 rounded-lg text-xs font-semibold text-slate-300 hover:text-white hover:bg-white/10 transition-colors cursor-pointer"
         >
           Decline
         </button>
         <button
+          type="button"
           onClick={acceptCookies}
-          className="px-4 py-1.5 rounded-lg text-xs font-bold bg-[#D4AF37] hover:bg-[#E6C65A] text-white transition-colors shadow-sm cursor-pointer"
+          className="px-4 py-1.5 rounded-lg text-xs font-bold bg-[#D4AF37] hover:bg-[#E6C65A] text-slate-950 transition-colors shadow-sm cursor-pointer"
         >
           Accept Cookies
         </button>

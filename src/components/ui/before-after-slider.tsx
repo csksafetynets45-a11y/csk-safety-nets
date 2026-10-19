@@ -62,9 +62,12 @@ export default function BeforeAfterSlider({
       onPointerMove={handlePointerMove}
       onPointerUp={handlePointerUp}
       onKeyDown={handleKeyDown}
-      tabIndex={0}
-      className={`relative w-full h-[400px] sm:h-[480px] rounded-3xl overflow-hidden shadow-lg border border-slate-200 select-none cursor-ew-resize focus:outline-hidden focus:ring-2 focus:ring-[#D4AF37] ${className}`}
+      role="slider"
+      aria-valuenow={Math.round(sliderPosition)}
+      aria-valuemin={0}
+      aria-valuemax={100}
       aria-label="Before and after image comparison slider"
+      className={`relative w-full h-[400px] sm:h-[480px] rounded-3xl overflow-hidden shadow-lg border border-slate-200 select-none cursor-ew-resize focus:outline-hidden focus:ring-2 focus:ring-[#D4AF37] ${className}`}
     >
       {/* Before Image (Bottom Layer) */}
       <div className="absolute inset-0 w-full h-full bg-slate-200">

@@ -62,15 +62,15 @@ export default function BeforeAfter() {
           >
             <div className="relative h-72 sm:h-96 w-full">
               <Image
-                src="/images/main-images/Balcony-Grills.jpg"
+                src="/images/main-images/Balcony-Grills.webp"
                 alt="Protected high-rise balcony with CSK Safety Nets & Invisible Grills safety netting and invisible grills"
                 fill
                 sizes="(max-width: 768px) 100vw, 50vw"
                 className="object-cover"
               />
-              <div className="absolute top-4 left-4 bg-[#D4AF37] text-white text-xs font-black uppercase px-3 py-1.5 rounded-md shadow-md flex items-center gap-1.5">
-                <Sparkles className="w-3.5 h-3.5 fill-[#A61E22]" />
-                <span>CSK Safety Nets & Invisible Grills CERTIFIED</span>
+              <div className="absolute top-4 left-4 bg-[#D4AF37] text-slate-950 text-xs font-black uppercase px-3 py-1.5 rounded-md shadow-md flex items-center gap-1.5">
+                <Sparkles className="w-3.5 h-3.5 fill-[#A61E22] text-[#A61E22]" aria-hidden="true" />
+                <span>CSK Safety Nets CERTIFIED</span>
               </div>
             </div>
             <div className="p-6">

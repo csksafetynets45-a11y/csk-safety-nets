@@ -24,7 +24,7 @@ const slides: Slide[] = [
     title: "Protecting What Matters Most —",
     highlight: "Without Compromise",
     subtitle: "Your children and pets deserve a safe home. CSK Safety Nets installs child-safe balcony barriers and invisible grills engineered to military-grade tension specifications across Bangalore.",
-    image: "/images/main-images/Balcony-Grills.jpg",
+    image: "/images/main-images/Balcony-Grills.webp",
     altText: "CSK Safety Nets SS316 marine-grade invisible balcony grills — premium child and pet protection, Bangalore",
     ctaText: "Explore Invisible Grills",
     ctaLink: "/services/balcony-invisible-grills",
@@ -46,7 +46,7 @@ const slides: Slide[] = [
     title: "Pet-Proof Balcony Barriers —",
     highlight: "Let Them Roam Safely",
     subtitle: "Cats that sit on ledges. Dogs that lean too far over railings. Our reinforced claw-proof nets and chew-resistant invisible grills keep your furry family members safe without blocking their view.",
-    image: "/images/main-images/pet-safetynets-real.jpeg",
+    image: "/images/main-images/pet-safetynets-real.webp",
     altText: "CSK Safety Nets anti-bird and pet protection netting — safe and humane, Bangalore apartments",
     ctaText: "Pet Safety Solutions",
     ctaLink: "/services/pet-safety-nets",
@@ -270,26 +270,35 @@ export default function HeroCarousel() {
       {/* Carousel Arrows */}
       <div className="absolute bottom-6 right-6 sm:bottom-10 sm:right-10 z-20 flex items-center gap-3">
         <button
+          type="button"
           onClick={prevSlide}
           className="p-3 rounded-full bg-white/10 hover:bg-white/20 text-white backdrop-blur-md border border-white/20 transition-all duration-200 hover:scale-105 active:scale-95 cursor-pointer"
           aria-label="Previous Slide"
         >
-          <ChevronLeft className="w-5 h-5" />
+          <ChevronLeft className="w-5 h-5" aria-hidden="true" />
         </button>
         <button
+          type="button"
           onClick={nextSlide}
           className="p-3 rounded-full bg-white/10 hover:bg-white/20 text-white backdrop-blur-md border border-white/20 transition-all duration-200 hover:scale-105 active:scale-95 cursor-pointer"
           aria-label="Next Slide"
         >
-          <ChevronRight className="w-5 h-5" />
+          <ChevronRight className="w-5 h-5" aria-hidden="true" />
         </button>
       </div>
 
       {/* Slide Dots */}
-      <div className="absolute bottom-6 left-1/2 -translate-x-1/2 sm:left-10 sm:translate-x-0 z-20 flex items-center gap-2">
+      <div
+        role="tablist"
+        aria-label="Hero carousel slide navigation"
+        className="absolute bottom-6 left-1/2 -translate-x-1/2 sm:left-10 sm:translate-x-0 z-20 flex items-center gap-2"
+      >
         {slides.map((s, idx) => (
           <button
             key={s.id}
+            type="button"
+            role="tab"
+            aria-selected={idx === current}
             onClick={() => {
               setIsAutoPlay(false);
               setCurrent(idx);
@@ -297,7 +306,7 @@ export default function HeroCarousel() {
             className={`h-2 rounded-full transition-all duration-300 cursor-pointer ${
               idx === current ? "w-8 bg-[#D4AF37]" : "w-2 bg-white/40 hover:bg-white/70"
             }`}
-            aria-label={`Go to slide ${idx + 1}`}
+            aria-label={`Go to slide ${idx + 1}: ${s.title}`}
           />
         ))}
       </div>

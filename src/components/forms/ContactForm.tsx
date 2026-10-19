@@ -120,8 +120,8 @@ export default function ContactForm() {
 
             <div className="flex flex-col gap-4 mt-2">
               <div className="flex items-center gap-4 bg-white/10 backdrop-blur-xs p-5 rounded-2xl border border-white/10 hover:border-[#D4AF37]/50 hover:shadow-md transition-all">
-                <div className="p-3 bg-[#D4AF37] text-white rounded-xl shrink-0">
-                  <Phone className="w-5 h-5" />
+                <div className="p-3 bg-[#D4AF37] text-slate-900 rounded-xl shrink-0">
+                  <Phone className="w-5 h-5 text-slate-900" aria-hidden="true" />
                 </div>
                 <div className="flex flex-col gap-1">
                   <span className="text-[10px] uppercase font-bold text-slate-300 block tracking-wider">
@@ -143,8 +143,8 @@ export default function ContactForm() {
                 href="mailto:csksafetynets45@gmail.com"
                 className="flex items-center gap-4 bg-white/10 backdrop-blur-xs p-5 rounded-2xl border border-white/10 hover:border-[#D4AF37]/50 hover:shadow-md transition-all group"
               >
-                <div className="p-3 bg-[#D4AF37] text-white rounded-xl shrink-0 group-hover:bg-[#E6C65A] transition-colors duration-300">
-                  <Mail className="w-5 h-5" />
+                <div className="p-3 bg-[#D4AF37] text-slate-900 rounded-xl shrink-0 group-hover:bg-[#E6C65A] transition-colors duration-300">
+                  <Mail className="w-5 h-5 text-slate-900" aria-hidden="true" />
                 </div>
                 <div>
                   <span className="text-[10px] uppercase font-bold text-slate-300 block tracking-wider">
@@ -186,6 +186,7 @@ export default function ContactForm() {
                     <span>Instant WhatsApp Confirmation</span>
                   </a>
                   <button
+                    type="button"
                     onClick={() => setStatus("idle")}
                     className="bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-bold px-5 py-3 rounded-full cursor-pointer transition-colors"
                   >
@@ -342,7 +343,7 @@ export default function ContactForm() {
                 <button
                   type="submit"
                   disabled={status === "loading"}
-                  className="w-full bg-[#D4AF37] hover:bg-[#E6C65A] text-white font-black py-4 rounded-xl shadow-md hover:shadow-lg transition-all duration-300 flex items-center justify-center gap-2 cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed text-sm focus:outline-hidden focus:ring-2 focus:ring-[#D4AF37] focus:ring-offset-2"
+                  className="w-full bg-[#D4AF37] hover:bg-[#E6C65A] text-slate-950 font-black py-4 rounded-xl shadow-md hover:shadow-lg transition-all duration-300 flex items-center justify-center gap-2 cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed text-sm focus:outline-hidden focus:ring-2 focus:ring-[#D4AF37] focus:ring-offset-2"
                 >
                   {status === "loading" ? (
                     <>
@@ -351,7 +352,7 @@ export default function ContactForm() {
                     </>
                   ) : (
                     <>
-                      <Send className="w-4 h-4" />
+                      <Send className="w-4 h-4" aria-hidden="true" />
                       <span>Request Free Site Visit & Quote</span>
                     </>
                   )}

@@ -18,7 +18,7 @@ const teamWorkGallery: GalleryItem[] = [
   },
   {
     id: 2,
-    image: "/images/main-images/Balcony-Grills.jpg",
+    image: "/images/main-images/Balcony-Grills.webp",
     caption: "SS316 Marine Wire Hydraulic Tensioning",
   },
   {
