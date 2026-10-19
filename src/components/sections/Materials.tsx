@@ -48,7 +48,7 @@ const materials: Material[] = [
   {
     id: 4,
     name: "High-Impact Sports & Cricket Enclosures",
-    image: "/images/materials/BoxCricketnet.jpeg",
+    image: "/images/main-images/cricketpracticenet.jpg",
     specs: [
       "Heavy 2.5mm - 3.5mm multi-ply braided cords",
       "Absorbs high-velocity leather cricket ball strikes",

@@ -35,7 +35,7 @@ const caseStudiesData: CaseStudy[] = [
     title: "Securing Multi-Story Balcony Railings at Skyview Residency",
     location: "Whitefield, Bangalore, Karnataka",
     serviceCategory: "Balcony Safety Nets",
-    image: "/images/hero/balconysafetynet.jpg",
+    image: "/images/main-images/balcony-safetynets.webp",
     challenge:
       "A young family with toddlers moving into a 14th-floor corner apartment faced severe anxiety over modern horizontal open railings with wide 6-inch gap spacing.",
     solution:
@@ -51,7 +51,7 @@ const caseStudiesData: CaseStudy[] = [
     title: "Panoramic Skyline Invisible Grills at High-Rise Penthouse",
     location: "Koramangala, Bangalore, Karnataka",
     serviceCategory: "Balcony Invisible Grills",
-    image: "/images/services/shyambalconygrills.jpg",
+    image: "/images/main-images/Balcony-Grills.jpg",
     challenge:
       "A penthouse resident needed robust fall protection for grandchildren and a golden retriever without obstructing a breathtaking 180-degree skyline view or degrading under intense seasonal monsoons.",
     solution:
@@ -67,7 +67,7 @@ const caseStudiesData: CaseStudy[] = [
     title: "Large-Scale Bird Proofing Across 12 Residential Duct Shafts",
     location: "Indiranagar, Bangalore, Karnataka",
     serviceCategory: "Duct Area Safety Nets",
-    image: "/images/main-images/Duct-Area-3.jpg",
+    image: "/images/main-images/duct-area-real.webp",
     challenge:
       "A 240-unit gated residential society suffered from severe pigeon nesting across 12 vertical plumbing shafts, creating health hazards and foul odor in utility balconies.",
     solution:
@@ -83,7 +83,7 @@ const caseStudiesData: CaseStudy[] = [
     title: "Compact Balcony Space Optimization with Ceiling Drying System",
     location: "Electronic City, Bangalore, Karnataka",
     serviceCategory: "Ceiling Cloth Hangers",
-    image: "/images/main-images/cloth-Hangers3.jpg",
+    image: "/images/main-images/ceiling-cloth-hangers-1.jpg",
     challenge:
       "A 2-BHK apartment balcony was cluttered with cumbersome folding metal clothes stands that blocked natural light and restricted access to the washing machine.",
     solution:
@@ -99,7 +99,7 @@ const caseStudiesData: CaseStudy[] = [
     title: "Commercial Facility Anti-Pigeon Ledge Spikes Installation",
     location: "HSR Layout, Bangalore, Karnataka",
     serviceCategory: "Anti-Bird Spikes",
-    image: "/images/hero/service-spikes.jpg",
+    image: "/images/main-images/bird-spikes-real.jpg",
     challenge:
       "Pigeons continuously roosted on narrow exterior window ledges and air-handling unit casings at a commercial hospital facility in HSR Layout, staining facades.",
     solution:

@@ -13,7 +13,7 @@ interface GalleryItem {
 const teamWorkGallery: GalleryItem[] = [
   {
     id: 1,
-    image: "/images/materials/Balconynetwork.jpeg",
+    image: "/images/main-images/balcony-safetynets.webp",
     caption: "High-Altitude Balcony Mesh Anchoring",
   },
   {
@@ -23,12 +23,12 @@ const teamWorkGallery: GalleryItem[] = [
   },
   {
     id: 3,
-    image: "/images/main-images/clothhanger-work.jpg",
+    image: "/images/main-images/ceiling-cloth-hangers-1.jpg",
     caption: "Precision Ceiling Pulley Track Mounting",
   },
   {
     id: 4,
-    image: "/images/main-images/Duct-Area-3.jpg",
+    image: "/images/main-images/duct-area-real.webp",
     caption: "Vertical Duct Shaft & Industrial Netting",
   },
   {
@@ -38,7 +38,7 @@ const teamWorkGallery: GalleryItem[] = [
   },
   {
     id: 6,
-    image: "/images/materials/BoxCricketnet.jpeg",
+    image: "/images/main-images/cricketpracticenet.jpg",
     caption: "Terrace Sports Cage & Turf Rigging",
   },
 ];

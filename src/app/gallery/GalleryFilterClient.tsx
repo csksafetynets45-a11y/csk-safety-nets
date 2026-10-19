@@ -17,7 +17,7 @@ interface GalleryPhoto {
 
 const galleryData: GalleryPhoto[] = [
   {
-    image: "/images/hero/balconysafetynet.jpg",
+    image: "/images/main-images/balcony-safetynets.webp",
     category: "apartment",
     categoryLabel: "Apartment Installations",
     location: "Whitefield, Bangalore, Karnataka",
@@ -33,7 +33,15 @@ const galleryData: GalleryPhoto[] = [
     description: "Elegant SS316 steel wire invisible grills offering panoramic high-rise skyline views.",
   },
   {
-    image: "/images/materials/clothhangerwork.jpeg",
+    image: "/images/main-images/pet-safetynets-real.jpeg",
+    category: "safety-nets",
+    categoryLabel: "Safety Nets",
+    location: "Bellandur, Bangalore, Karnataka",
+    serviceName: "Pet Safety Nets",
+    description: "Reinforced claw-resistant pet safety netting protecting cats and dogs on high-rise balconies.",
+  },
+  {
+    image: "/images/main-images/ceiling-cloth-hangers-1.jpg",
     category: "cloth-hangers",
     categoryLabel: "Cloth Hangers",
     location: "Indiranagar, Bangalore, Karnataka",
@@ -49,19 +57,19 @@ const galleryData: GalleryPhoto[] = [
     description: "Insured field technicians securing brackets at high floor structures.",
   },
   {
-    image: "/images/hero/balconysafetynet.jpg",
-    category: "materials",
-    categoryLabel: "Materials",
+    image: "/images/main-images/bird-spikes-real.jpg",
+    category: "safety-nets",
+    categoryLabel: "Safety Nets",
     location: "Bangalore, Karnataka Central",
-    serviceName: "HDPE Nylon Nets",
-    description: "Close-up of UV-stabilized double-locked HDPE safety netting mesh.",
+    serviceName: "Anti-Bird Spikes",
+    description: "SS304 marine-grade anti-bird spikes with UV polycarbonate base mounted on AC and ledge areas.",
   },
   {
-    image: "/images/materials/BoxCricketnet.jpeg",
+    image: "/images/main-images/cricketpracticenet.jpg",
     category: "safety-nets",
     categoryLabel: "Safety Nets",
     location: "Electronic City, Bangalore, Karnataka",
-    serviceName: "Sports Safety Nets",
+    serviceName: "Cricket Practice Nets",
     description: "Cricket practice pitches netting boundary cage installation.",
   },
   {
@@ -73,7 +81,7 @@ const galleryData: GalleryPhoto[] = [
     description: "Reinforced kid-safe boundary mesh tied securely around open railings.",
   },
   {
-    image: "/images/hero/windowgrill.webp",
+    image: "/images/main-images/window-grills-real.webp",
     category: "invisible-grills",
     categoryLabel: "Invisible Grills",
     location: "Jayanagar, Bangalore, Karnataka",
@@ -89,15 +97,15 @@ const galleryData: GalleryPhoto[] = [
     description: "Folding accordion-style wall hangers collapsing flat against the frames.",
   },
   {
-    image: "/images/hero/constructionnet.webp",
-    category: "projects",
-    categoryLabel: "Projects",
-    location: "Koramangala, Bangalore, Karnataka",
-    serviceName: "Construction Safety Nets",
-    description: "Heavy-duty fall protection nets wrapped around concrete pillars.",
+    image: "/images/main-images/Sports-Nets-3.jpg",
+    category: "safety-nets",
+    categoryLabel: "Safety Nets",
+    location: "Sarjapur Road, Bangalore, Karnataka",
+    serviceName: "Sports Netting",
+    description: "Multi-sport turf and boundary net enclosure installed for athletic complexes.",
   },
   {
-    image: "/images/main-images/Duct-Area-3.jpg",
+    image: "/images/main-images/duct-area-real.webp",
     category: "safety-nets",
     categoryLabel: "Safety Nets",
     location: "Indiranagar, Bangalore, Karnataka",
@@ -113,7 +121,7 @@ const galleryData: GalleryPhoto[] = [
     description: "Anti-bird netting secured around building exteriors to protect against pigeons.",
   },
   {
-    image: "/images/main-images/monkey-safety.webp",
+    image: "/images/main-images/monkey-safety-nets-real.jpg",
     category: "safety-nets",
     categoryLabel: "Safety Nets",
     location: "Kanakapura Road, Bangalore, Karnataka",

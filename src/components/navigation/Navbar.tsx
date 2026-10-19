@@ -16,7 +16,7 @@ import {
   Sparkles,
 } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
-import Logo from "../ui/Logo";
+import Logo, { NavLogo } from "../ui/Logo";
 
 const safetyNetsServices = [
   { name: "Balcony Safety Nets", href: "/services/balcony-safety-nets" },
@@ -158,20 +158,18 @@ export default function Navbar() {
 
       {/* MAIN STICKY NAVBAR */}
       <header
-        className={`fixed top-[34px] left-0 right-0 z-40 transition-all duration-300 ease-in-out bg-white border-b border-[#E5E7EB] ${
-          isScrolled ? "shadow-md py-2.5" : "py-3.5"
+        className={`fixed top-[32px] sm:top-[34px] left-0 right-0 z-40 transition-all duration-300 ease-in-out bg-white border-b border-[#E5E7EB] ${
+          isScrolled ? "shadow-md py-2" : "py-2 sm:py-2.5"
         }`}
         ref={megaMenuRef}
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center justify-between">
+          <div className="flex items-center justify-between gap-4 lg:gap-6">
             {/* LOGO */}
-            <div className="flex items-center shrink-0">
-              <Logo />
-            </div>
+            <NavLogo />
 
             {/* DESKTOP NAVIGATION */}
-            <nav className="hidden xl:flex items-center gap-6">
+            <nav className="hidden xl:flex items-center gap-4.5 2xl:gap-6">
               {navLinks.map((link) => {
                 const isActive = pathname === link.href;
 

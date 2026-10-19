@@ -74,7 +74,7 @@ export const blogData: Record<string, BlogArticle> = {
     readingTime: "4 min read",
     category: "safety-nets",
     categoryLabel: "Safety Nets",
-    image: "/images/hero/balconysafetynet.jpg",
+    image: "/images/main-images/balcony-safetynets.webp",
     summary: "A practical guide comparing virgin HDPE polymer netting and nylon meshes, concrete anchor integrity, and how to maximize safety for high-rise families in Bangalore.",
     introduction: "Safety nets provide an economical, highly dependable method to secure high-floor balconies against accidental falls. Understanding the difference between UV-stabilized virgin polymer and recycled twine ensures your installation lasts for years without fraying or sagging.",
     contentBlocks: [
