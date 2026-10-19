@@ -41,7 +41,7 @@ export const metadata: Metadata = {
   ],
   metadataBase: new URL("https://csksafetynets.in"),
   verification: {
-    google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || "PENDING_GSC_VERIFICATION_CODE",
+    google: "-53cDEjGSkBFlzQ5wBfqVF95SDKgWKSaMf49jBAa2rQ",
   },
   alternates: {
     canonical: "/",
@@ -95,6 +95,8 @@ export default function RootLayout({
         {/* Favicon fallback tags for all browsers & search engines */}
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <link rel="shortcut icon" href="/favicon.ico" />
+        {/* Google Search Console Verification Meta Tag */}
+        <meta name="google-site-verification" content="-53cDEjGSkBFlzQ5wBfqVF95SDKgWKSaMf49jBAa2rQ" />
         {/* LCP Hero Image Preload for fastest FCP/LCP */}
         <link
           rel="preload"
