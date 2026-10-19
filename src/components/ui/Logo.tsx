@@ -93,18 +93,18 @@ export function NavLogo({ className = "" }: { className?: string }) {
     <div className={`flex items-center shrink-0 ${className}`}>
       <Link
         href="/"
-        className="flex items-center bg-white rounded-xl border border-[#A61E22]/15 shadow-[0_2px_10px_rgba(166,30,34,0.08)] hover:shadow-[0_4px_16px_rgba(166,30,34,0.16)] hover:border-[#A61E22]/30 transition-all duration-300 hover:scale-[1.02] p-1.5 sm:px-2.5 sm:py-1.5 group focus:outline-none focus:ring-2 focus:ring-[#D4AF37]/40"
+        className="flex items-center rounded-xl overflow-hidden transition-all duration-300 hover:scale-[1.02] focus:outline-none focus:ring-2 focus:ring-[#D4AF37]/50"
         aria-label="CSK Safety Nets & Invisible Grills Home"
       >
         {!imageError ? (
           <Image
-            src="/images/logo/csk-safetynets-logo.webp"
-            alt="CSK Safety Nets - Balcony Safety Nets & Invisible Grills Chennai"
+            src="/images/logo/csksafetynets-logo.webp"
+            alt="CSK Safety Nets & Invisible Grills Chennai"
             width={2172}
             height={724}
             priority
             onError={() => setImageError(true)}
-            className="w-[125px] h-[40px] sm:w-[148px] sm:h-[46px] md:w-[170px] md:h-[52px] object-contain transition-transform duration-200"
+            className="h-10 sm:h-12 md:h-[50px] w-auto object-contain transition-transform duration-200"
           />
         ) : (
           <VectorBadge light={false} />

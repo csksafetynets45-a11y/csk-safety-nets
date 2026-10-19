@@ -56,7 +56,7 @@ export function generateOrganizationSchema() {
     "@type": "Organization",
     "name": "CSK Safety Nets & Invisible Grills",
     "url": "https://csksafetynets.in",
-    "logo": "https://csksafetynets.in/images/logo/csk-safetynets-logo.webp",
+    "logo": "https://csksafetynets.in/images/logo/csksafetynets-logo.webp",
     "image": "https://csksafetynets.in/images/og-image.webp",
     "contactPoint": [
       {
@@ -84,7 +84,7 @@ export function generateLocalBusinessSchema(areaName?: string) {
     "telephone": "+91 79819 10891",
     "email": "csksafetynets45@gmail.com",
     "image": "https://csksafetynets.in/images/og-image.webp",
-    "logo": "https://csksafetynets.in/images/logo/csk-safetynets-logo.webp",
+    "logo": "https://csksafetynets.in/images/logo/csksafetynets-logo.webp",
     "priceRange": "₹₹",
     "address": {
       "@type": "PostalAddress",
@@ -324,7 +324,7 @@ export function generateArticleSchema(
         "name": "CSK Safety Nets & Invisible Grills",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://csksafetynets.in/images/logo/csk-safetynets-logo.webp",
+          "url": "https://csksafetynets.in/images/logo/csksafetynets-logo.webp",
         },
       },
       "image": article.image || "https://csksafetynets.in/images/og-image.webp",
@@ -348,7 +348,7 @@ export function generateArticleSchema(
       "name": "CSK Safety Nets & Invisible Grills",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://csksafetynets.in/images/logo/csk-safetynets-logo.webp",
+        "url": "https://csksafetynets.in/images/logo/csksafetynets-logo.webp",
       },
     },
     "image": image || "https://csksafetynets.in/images/og-image.webp",
