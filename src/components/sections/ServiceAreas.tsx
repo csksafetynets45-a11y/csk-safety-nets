@@ -16,13 +16,13 @@ export default function ServiceAreas() {
           <div className="lg:col-span-4 flex flex-col gap-5 text-left">
             <div className="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-[#A61E22] bg-white border border-[#E5E7EB] px-3.5 py-1.5 rounded-full self-start shadow-2xs">
               <Sparkles className="w-3.5 h-3.5 text-[#D4AF37]" />
-              <span>110+ Bangalore Localities</span>
+              <span>120+ Chennai Localities</span>
             </div>
             <h2 className="text-3xl sm:text-4xl font-black text-[#A61E22] tracking-tight leading-tight">
-              Rapid Doorstep Service Across All Bangalore Zones
+              Rapid Doorstep Service Across All Chennai Zones
             </h2>
             <p className="text-slate-600 text-sm leading-relaxed">
-              We provide free doorstep measurements, sample presentations, and certified safety net &amp; invisible grill installations across 110+ Bangalore neighborhoods and IT corridors.
+              We provide free doorstep measurements, physical sample demonstrations, and certified safety net &amp; marine SS316 invisible grill installations across 120+ Chennai neighborhoods, ECR/OMR corridors, and high-rise apartment townships.
             </p>
             <div className="flex items-center gap-3 text-[#A61E22] text-xs sm:text-sm font-bold mt-1">
               <Globe className="w-4 h-4 text-[#D4AF37]" />
@@ -33,13 +33,13 @@ export default function ServiceAreas() {
                 href="/areas"
                 className="inline-flex items-center gap-2 bg-[#A61E22] hover:bg-[#D4AF37] text-white text-xs font-bold px-6 py-3 rounded-full transition-all shadow-md group cursor-pointer"
               >
-                <span>View All 110+ Bangalore Areas</span>
+                <span>View All 120+ Chennai Areas</span>
                 <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
               </Link>
             </div>
           </div>
 
-          {/* Bangalore Localities Cards Grid (Right) */}
+          {/* Chennai Localities Cards Grid (Right) */}
           <div className="lg:col-span-8 bg-white rounded-3xl p-6 sm:p-8 shadow-sm border border-[#E5E7EB]">
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3.5">
               {featuredAreas.map((area, index) => (
@@ -83,7 +83,7 @@ export default function ServiceAreas() {
             
             <div className="mt-6 pt-6 border-t border-slate-100 flex flex-col sm:flex-row items-center justify-between gap-4">
               <span className="text-xs text-slate-500 font-medium text-center sm:text-left">
-                Plus 98+ more Bangalore localities including Bellandur, Hennur, Varthur, Kanakapura Rd, RR Nagar...
+                Plus 98+ more Chennai localities including OMR, ECR, Porur, Medavakkam, Ambattur...
               </span>
               <Link
                 href="/areas"

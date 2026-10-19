@@ -34,7 +34,7 @@ export default function BeforeAfter() {
             <div className="relative h-72 sm:h-96 w-full">
               <Image
                 src="/images/gallery/before_balcony.png"
-                alt="Unprotected high-rise balcony with dangerous open railing gaps in Bangalore"
+                alt="Unprotected high-rise balcony with dangerous open railing gaps in Chennai"
                 fill
                 sizes="(max-width: 768px) 100vw, 50vw"
                 className="object-cover filter grayscale opacity-90"

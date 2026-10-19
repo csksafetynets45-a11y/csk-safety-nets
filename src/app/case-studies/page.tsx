@@ -5,14 +5,14 @@ import CaseStudiesClient from "./CaseStudiesClient";
 export const metadata: Metadata = {
   title: "Case Studies | CSK Safety Nets & Invisible Grills",
   description:
-    "Explore case studies & real installation projects by CSK Safety Nets & Invisible Grills across Bangalore, including Whitefield, Koramangala, Indiranagar, HSR Layout, Electronic City, Marathahalli, and Sarjapur Road.",
+    "Explore case studies & real installation projects by CSK Safety Nets & Invisible Grills across Chennai, including Anna Nagar, T. Nagar, Velachery, OMR, Porur, Adyar, and Tambaram.",
   alternates: {
     canonical: "/case-studies",
   },
   openGraph: {
     title: "Case Studies | CSK Safety Nets & Invisible Grills",
     description:
-      "Explore case studies & real installation projects by CSK Safety Nets & Invisible Grills across Bangalore, including Whitefield, Koramangala, Indiranagar, HSR Layout, Electronic City, Marathahalli, and Sarjapur Road.",
+      "Explore case studies & real installation projects by CSK Safety Nets & Invisible Grills across Chennai, including Anna Nagar, T. Nagar, Velachery, OMR, Porur, Adyar, and Tambaram.",
     url: "https://csksafetynets.in/case-studies",
     images: [
       {
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Case Studies | CSK Safety Nets & Invisible Grills",
     description:
-      "Explore case studies & real installation projects by CSK Safety Nets & Invisible Grills across Bangalore serving Whitefield, Koramangala, Indiranagar, HSR Layout, Electronic City, Marathahalli, and Sarjapur Road.",
+      "Explore case studies & real installation projects by CSK Safety Nets & Invisible Grills across Chennai serving Anna Nagar, T. Nagar, Velachery, OMR, Porur, Adyar, and Tambaram.",
     images: ["/images/og-image.webp"],
   },
 };

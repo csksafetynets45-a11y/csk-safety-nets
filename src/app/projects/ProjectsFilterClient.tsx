@@ -18,7 +18,7 @@ export default function ProjectsFilterClient() {
   const [activeFilter, setActiveFilter] = useState("all");
   const [visibleCount, setVisibleCount] = useState(6);
 
-  const projects = Object.values(projectsData);
+  const projects = Array.from(new Set(Object.values(projectsData)));
 
   // Filtering Logic
   const filteredProjects = projects.filter((project) => {

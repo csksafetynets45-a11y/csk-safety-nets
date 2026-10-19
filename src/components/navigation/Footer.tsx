@@ -13,7 +13,7 @@ export default function Footer() {
           <div className="flex flex-col gap-5">
             <Logo light={true} />
             <p className="text-[#D1D5DB] text-sm leading-relaxed mt-2">
-              CSK Safety Nets &amp; Invisible Grills delivers premium balcony safety nets, child fall protection barriers, SS316 marine invisible wire grills, and stainless cloth drying systems across Bangalore. Same-week installation. Written warranty on every job.
+              CSK Safety Nets &amp; Invisible Grills delivers premium balcony safety nets, child fall protection barriers, SS316 marine invisible wire grills, and stainless cloth drying systems across Chennai. Same-week installation. Written warranty on every job.
             </p>
             <div className="flex flex-col gap-3 mt-1 text-sm text-[#D1D5DB]">
               <div className="flex items-center gap-3">
@@ -95,7 +95,7 @@ export default function Footer() {
                 <div>
                   <span className="font-bold text-white block">Service Area</span>
                   <span className="block text-sm text-[#D1D5DB] mt-1">
-                    Bangalore, Karnataka
+                    Chennai, Tamil Nadu
                   </span>
                 </div>
               </li>
@@ -132,32 +132,34 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Bangalore Localities Local SEO Footer Links — CSK's distinct ordering */}
+        {/* Chennai Localities Local SEO Footer Links */}
         <div className="py-6 border-t border-[#4A0A0D] flex flex-col md:flex-row items-center justify-between gap-4 text-xs">
           <div className="flex items-center gap-2 text-white font-bold shrink-0">
             <MapPin className="w-4 h-4 text-[#D4AF37]" />
-            <span>Service Areas Across Bangalore:</span>
+            <span>Service Areas Across Chennai:</span>
           </div>
           <div className="flex flex-wrap items-center justify-center md:justify-end gap-x-4 gap-y-2 text-[#D1D5DB]">
             {[
-              { name: "Sarjapur Road", slug: "sarjapur-road" },
-              { name: "Bellandur", slug: "bellandur" },
-              { name: "Hennur", slug: "hennur-road" },
-              { name: "Rajajinagar", slug: "rajajinagar" },
-              { name: "Malleshwaram", slug: "malleshwaram" },
-              { name: "Basavanagudi", slug: "basavanagudi" },
-              { name: "Vijayanagar", slug: "vijayanagar" },
-              { name: "Banashankari", slug: "banashankari" },
-              { name: "CV Raman Nagar", slug: "cv-raman-nagar" },
-              { name: "Kalyan Nagar", slug: "kalyan-nagar" },
-              { name: "Horamavu", slug: "horamavu" },
-              { name: "Whitefield", slug: "whitefield" },
-              { name: "Koramangala", slug: "koramangala" },
-              { name: "Marathahalli", slug: "marathahalli" },
-              { name: "Electronic City", slug: "electronic-city" },
-              { name: "JP Nagar", slug: "jp-nagar" },
-              { name: "Hebbal", slug: "hebbal" },
-              { name: "Yelahanka", slug: "yelahanka" },
+              { name: "Anna Nagar", slug: "anna-nagar" },
+              { name: "T. Nagar", slug: "t-nagar" },
+              { name: "Velachery", slug: "velachery" },
+              { name: "OMR", slug: "omr" },
+              { name: "Adyar", slug: "adyar" },
+              { name: "Besant Nagar", slug: "besant-nagar" },
+              { name: "Thiruvanmiyur", slug: "thiruvanmiyur" },
+              { name: "Porur", slug: "porur" },
+              { name: "Tambaram", slug: "tambaram" },
+              { name: "Chromepet", slug: "chromepet" },
+              { name: "Medavakkam", slug: "medavakkam" },
+              { name: "Perungudi", slug: "perungudi" },
+              { name: "Sholinganallur", slug: "sholinganallur" },
+              { name: "Navalur", slug: "navalur" },
+              { name: "Siruseri", slug: "siruseri" },
+              { name: "Mylapore", slug: "mylapore" },
+              { name: "Ambattur", slug: "ambattur" },
+              { name: "Mogappair", slug: "mogappair" },
+              { name: "Vadapalani", slug: "vadapalani" },
+              { name: "Guindy", slug: "guindy" },
             ].map((city) => (
               <Link
                 key={city.slug}

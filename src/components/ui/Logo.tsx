@@ -73,7 +73,7 @@ export function VectorBadge({ light = false }: { light?: boolean }) {
             light ? "text-slate-300" : "text-[#4A4A4A]"
           }`}
         >
-          Nets &amp; Grills · Bangalore
+          Nets &amp; Grills · Chennai
         </span>
       </div>
     </div>
@@ -99,7 +99,7 @@ export function NavLogo({ className = "" }: { className?: string }) {
         {!imageError ? (
           <Image
             src="/images/logo/csk-safetynets-logo.webp"
-            alt="CSK Safety Nets - Balcony Safety Nets & Invisible Grills Bangalore"
+            alt="CSK Safety Nets - Balcony Safety Nets & Invisible Grills Chennai"
             width={2172}
             height={724}
             priority

@@ -51,7 +51,7 @@ export default function InstallationProcess() {
             Our 4-Stage Precision Installation Methodology
           </h2>
           <p className="text-slate-600 text-sm leading-relaxed">
-            From initial measurement to structural load verification and immaculate dust cleanup, discover how CSK Safety Nets & Invisible Grills ensures flawless execution on every Bangalore high-rise.
+            From initial measurement to structural load verification and immaculate dust cleanup, discover how CSK Safety Nets & Invisible Grills ensures flawless execution on every Chennai high-rise.
           </p>
         </div>
 

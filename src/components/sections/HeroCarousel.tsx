@@ -23,9 +23,9 @@ const slides: Slide[] = [
     id: 1,
     title: "Protecting What Matters Most —",
     highlight: "Without Compromise",
-    subtitle: "Your children and pets deserve a safe home. CSK Safety Nets installs child-safe balcony barriers and invisible grills engineered to military-grade tension specifications across Bangalore.",
+    subtitle: "Your children and pets deserve a safe home. CSK Safety Nets installs child-safe balcony barriers and invisible grills engineered to military-grade tension specifications across Chennai.",
     image: "/images/main-images/Balcony-Grills.webp",
-    altText: "CSK Safety Nets SS316 marine-grade invisible balcony grills — premium child and pet protection, Bangalore",
+    altText: "CSK Safety Nets SS316 marine-grade invisible balcony grills — premium child and pet protection, Chennai",
     ctaText: "Explore Invisible Grills",
     ctaLink: "/services/balcony-invisible-grills",
     badge: "10-Year Written Warranty · 100% Unobstructed Views",
@@ -36,7 +36,7 @@ const slides: Slide[] = [
     highlight: "Same-Week Installation",
     subtitle: "Stop worrying every time your child leans on the railing. Our certified team visits your home this week, measures every dimension, and installs high-tensile safety nets that genuinely hold.",
     image: "/images/main-images/balcony-safetynets.webp",
-    altText: "CSK Safety Nets heavy-duty childproof balcony fall protection netting installed in Bangalore apartment",
+    altText: "CSK Safety Nets heavy-duty childproof balcony fall protection netting installed in Chennai apartment",
     ctaText: "Discover Safety Nets",
     ctaLink: "/services/balcony-safety-nets",
     badge: "140kg+ Point Load Tested · 5-Year Guarantee",
@@ -47,7 +47,7 @@ const slides: Slide[] = [
     highlight: "Let Them Roam Safely",
     subtitle: "Cats that sit on ledges. Dogs that lean too far over railings. Our reinforced claw-proof nets and chew-resistant invisible grills keep your furry family members safe without blocking their view.",
     image: "/images/main-images/pet-safetynets-real.webp",
-    altText: "CSK Safety Nets anti-bird and pet protection netting — safe and humane, Bangalore apartments",
+    altText: "CSK Safety Nets anti-bird and pet protection netting — safe and humane, Chennai apartments",
     ctaText: "Pet Safety Solutions",
     ctaLink: "/services/pet-safety-nets",
     badge: "Claw-Proof · Non-Toxic · Pet-Safe Materials",
@@ -58,7 +58,7 @@ const slides: Slide[] = [
     highlight: "Duct & Shaft Enclosures",
     subtitle: "Open ventilation shafts invite pigeons, rodents, and hygiene hazards. Our certified rope-access technicians seal vertical shafts from ground to rooftop with long-lasting polymer mesh.",
     image: "/images/main-images/duct-area-real.webp",
-    altText: "CSK Safety Nets industrial duct area and building shaft netting — certified technicians, Bangalore",
+    altText: "CSK Safety Nets industrial duct area and building shaft netting — certified technicians, Chennai",
     ctaText: "Duct Area Netting",
     ctaLink: "/services/duct-area-safety-nets",
     badge: "Certified Rope-Access · Society & RWA Ready",
@@ -67,9 +67,9 @@ const slides: Slide[] = [
     id: 5,
     title: "Reclaim Your Balcony Space —",
     highlight: "Stainless Ceiling Cloth Hangers",
-    subtitle: "Stop tangling with floor-standing drying racks. Our smooth dual-pulley SS304 ceiling systems lift your laundry up and out of the way — quick to install, built to outlast Bangalore's monsoons.",
+    subtitle: "Stop tangling with floor-standing drying racks. Our smooth dual-pulley SS304 ceiling systems lift your laundry up and out of the way — quick to install, built to outlast Chennai's monsoons.",
     image: "/images/main-images/ceiling-cloth-hangers-1.jpg",
-    altText: "CSK Safety Nets ceiling-mounted stainless steel pulley cloth drying rack — Bangalore home installation",
+    altText: "CSK Safety Nets ceiling-mounted stainless steel pulley cloth drying rack — Chennai home installation",
     ctaText: "Explore Cloth Hangers",
     ctaLink: "/services/ceiling-cloth-hangers",
     badge: "Reclaims 100% Balcony Space · 3-Year Guarantee",
@@ -237,7 +237,7 @@ export default function HeroCarousel() {
                 </div>
                 <div>
                   <h3 className="text-base font-bold text-white">Family-First Safety</h3>
-                  <p className="text-xs text-slate-300">Bangalore&apos;s Child & Pet Safety Specialists</p>
+                  <p className="text-xs text-slate-300">Chennai&apos;s Child & Pet Safety Specialists</p>
                 </div>
               </div>
 
@@ -252,7 +252,7 @@ export default function HeroCarousel() {
                 </div>
                 <div className="flex justify-between items-center">
                   <span>Coverage Scope</span>
-                  <span className="font-bold text-[#D4AF37] text-sm">All Bangalore</span>
+                  <span className="font-bold text-[#D4AF37] text-sm">All Chennai</span>
                 </div>
               </div>
 

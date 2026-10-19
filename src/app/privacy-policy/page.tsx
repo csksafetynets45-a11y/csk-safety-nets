@@ -6,14 +6,14 @@ import { generateBreadcrumbSchema } from "@/utils/schema";
 export const metadata: Metadata = {
   title: "Privacy Policy | CSK Safety Nets & Invisible Grills",
   description:
-    "Review CSK Safety Nets & Invisible Grills' official Privacy Policy. We respect customer data privacy, adhere to zero-data-sharing principles, and ensure transparent quote & inspection booking across Bangalore.",
+    "Review CSK Safety Nets & Invisible Grills' official Privacy Policy. We respect customer data privacy, adhere to zero-data-sharing principles, and ensure transparent quote & inspection booking across Chennai.",
   alternates: {
     canonical: "/privacy-policy",
   },
   openGraph: {
     title: "Privacy Policy | CSK Safety Nets & Invisible Grills",
     description:
-      "Official privacy policy regarding customer inquiries, free site visits, and data protection for CSK Safety Nets & Invisible Grills across Bangalore.",
+      "Official privacy policy regarding customer inquiries, free site visits, and data protection for CSK Safety Nets & Invisible Grills across Chennai.",
     url: "https://csksafetynets.in/privacy-policy",
     images: [
       {
@@ -106,7 +106,7 @@ export default function PrivacyPolicyPage() {
                 Introduction &amp; Scope
               </h2>
               <p>
-                CSK Safety Nets & Invisible Grills (&ldquo;we&rdquo;, &ldquo;our&rdquo;, or &ldquo;us&rdquo;) is committed to protecting the privacy and personal data of homeowners, property managers, and commercial clients visiting our website (<strong>https://csksafetynets.in</strong>) and utilizing our professional safety netting, invisible grills, and bird control services across Bangalore.
+                CSK Safety Nets & Invisible Grills (&ldquo;we&rdquo;, &ldquo;our&rdquo;, or &ldquo;us&rdquo;) is committed to protecting the privacy and personal data of homeowners, property managers, and commercial clients visiting our website (<strong>https://csksafetynets.in</strong>) and utilizing our professional safety netting, invisible grills, and bird control services across Chennai.
               </p>
             </section>
 
@@ -121,7 +121,7 @@ export default function PrivacyPolicyPage() {
               <ul className="list-disc pl-5 space-y-1.5 text-slate-600">
                 <li><strong>Contact Information:</strong> Full name, active mobile number, and optional email address.</li>
                 <li><strong>Service Details:</strong> Type of service requested (e.g., balcony safety nets, invisible grills, pigeon spikes, cloth drying hangers), estimated balcony/window dimensions, and specific requirements.</li>
-                <li><strong>Location &amp; Address:</strong> City, neighborhood/locality (e.g., Whitefield, Koramangala, Indiranagar, HSR Layout, Electronic City, Jayanagar, Marathahalli), and apartment complex name for dispatching technicians.</li>
+                <li><strong>Location &amp; Address:</strong> City, neighborhood/locality (e.g., Anna Nagar, T. Nagar, Velachery, OMR, Porur, Adyar, Tambaram), and apartment complex name for dispatching technicians.</li>
                 <li><strong>Technical Telemetry:</strong> Anonymized browser type, IP address, page views, and referrer URLs collected automatically via standard analytics to improve website performance.</li>
               </ul>
             </section>
@@ -240,7 +240,7 @@ export default function PrivacyPolicyPage() {
                   </div>
                   <div>
                     <span className="text-slate-400 block">Operating Region</span>
-                    <span className="font-bold text-white">All Major Cities, Bangalore, Karnataka</span>
+                    <span className="font-bold text-white">All Major Cities, Chennai, Tamil Nadu</span>
                   </div>
                 </div>
               </div>

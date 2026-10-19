@@ -58,7 +58,7 @@ export default function ServiceCategories() {
             High-Altitude Protection &amp; Space Optimization
           </h2>
           <p className="text-slate-600 text-sm sm:text-base leading-relaxed">
-            Engineered specifically to withstand Bangalore&apos;s outdoor climate and heavy monsoons while safeguarding high-rise homes and commercial properties.
+            Engineered specifically to withstand Chennai&apos;s outdoor climate and heavy monsoons while safeguarding high-rise homes and commercial properties.
           </p>
         </div>
 
@@ -78,7 +78,7 @@ export default function ServiceCategories() {
               <div className="relative h-64 w-full overflow-hidden">
                 <Image
                   src={category.image}
-                  alt={`CSK Safety Nets & Invisible Grills - ${category.name} in Bangalore`}
+                  alt={`CSK Safety Nets & Invisible Grills - ${category.name} in Chennai`}
                   fill
                   sizes="(max-width: 768px) 100vw, 33vw"
                   className="object-cover transition-transform duration-500 group-hover:scale-105"

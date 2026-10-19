@@ -8,9 +8,9 @@ export default function FAQAccordion() {
 
   const faqs = [
     {
-      question: "How quickly can your team come for a doorstep measurement in Bangalore?",
+      question: "How quickly can your team come for a doorstep measurement in Chennai?",
       answer:
-        "Our specialized rigging technicians are stationed across North, South, and East Bangalore. In most localities—including Whitefield, Koramangala, Indiranagar, and HSR Layout—we provide same-day or next-day site visits with zero consultation charges.",
+        "Our specialized rigging technicians are stationed across North, South, and East Chennai. In most localities—including Anna Nagar, T. Nagar, Velachery, OMR, and Porur—we provide same-day or next-day site visits with zero consultation charges.",
     },
     {
       question: "Will invisible grills block our apartment's natural light and garden view?",
@@ -18,7 +18,7 @@ export default function FAQAccordion() {
         "Not at all. Our invisible grills use slender 2.5mm to 3.0mm aerospace SS316 marine cables coated in crystal-clear DuPont nylon. From a distance of just a few feet, they are virtually transparent, maintaining uninterrupted ventilation and panoramic skyline views.",
     },
     {
-      question: "Do apartment gated communities and RWAs in Bangalore allow invisible grills and safety nets?",
+      question: "Do apartment gated communities and RWAs in Chennai allow invisible grills and safety nets?",
       answer:
         "Yes! Unlike bulky external MS iron grilles that alter building elevations and face RWA restrictions, our modern invisible grills and flush-mounted safety netting maintain architectural uniformity and meet standard high-rise society safety bylaws.",
     },
@@ -55,7 +55,7 @@ export default function FAQAccordion() {
     {
       question: "We have an urgent apartment move-in scheduled this weekend. How fast can CSK complete the installation?",
       answer:
-        "We prioritize urgent family move-ins. Call us in the morning at +91 79819 10891, and our local Bangalore crew can perform laser measurements the very same afternoon, with complete net or grill installation completed within 24 to 48 hours.",
+        "We prioritize urgent family move-ins. Call us in the morning at +91 79819 10891, and our local Chennai crew can perform laser measurements the very same afternoon, with complete net or grill installation completed within 24 to 48 hours.",
     },
     {
       question: "Can individual rods on your ceiling cloth drying racks be operated independently?",
@@ -81,7 +81,7 @@ export default function FAQAccordion() {
             Frequently Asked Questions
           </h2>
           <p className="mt-4 text-sm sm:text-base text-slate-600">
-            Clear, transparent answers about our high-rise safety nets, invisible grills, warranty terms, and Bangalore installation procedures.
+            Clear, transparent answers about our high-rise safety nets, invisible grills, warranty terms, and Chennai installation procedures.
           </p>
         </div>
 

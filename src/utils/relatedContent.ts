@@ -31,7 +31,7 @@ export function getRelatedBlogs(category: string, currentSlug?: string): BlogArt
 }
 
 /**
- * Returns related Bangalore, Karnataka areas (random or sliced based on area indexes)
+ * Returns related Chennai, Tamil Nadu areas (random or sliced based on area indexes)
  */
 export function getRelatedAreas(currentSlug?: string): AreaDetail[] {
   return Object.values(areasData)

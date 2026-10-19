@@ -8,14 +8,14 @@ import { generateBreadcrumbSchema } from "@/utils/schema";
 export const metadata: Metadata = {
   title: "Search | CSK Safety Nets & Invisible Grills",
   description:
-    "Search across CSK Safety Nets & Invisible Grills balcony safety nets, invisible grills, anti-bird netting, and service locations in Bangalore: Whitefield, Koramangala, Indiranagar, HSR Layout, Electronic City, Marathahalli, and Sarjapur Road.",
+    "Search across CSK Safety Nets & Invisible Grills balcony safety nets, invisible grills, anti-bird netting, and service locations in Chennai: Anna Nagar, T. Nagar, Velachery, OMR, Porur, Adyar, and Tambaram.",
   alternates: {
     canonical: "/search",
   },
   openGraph: {
     title: "Search | CSK Safety Nets & Invisible Grills",
     description:
-      "Search across CSK Safety Nets & Invisible Grills balcony safety nets, invisible grills, anti-bird netting, and service locations in Bangalore.",
+      "Search across CSK Safety Nets & Invisible Grills balcony safety nets, invisible grills, anti-bird netting, and service locations in Chennai.",
     url: "https://csksafetynets.in/search",
     images: [
       {
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Search | CSK Safety Nets & Invisible Grills",
     description:
-      "Search across CSK Safety Nets & Invisible Grills balcony safety nets, invisible grills, and safety solutions in Bangalore.",
+      "Search across CSK Safety Nets & Invisible Grills balcony safety nets, invisible grills, and safety solutions in Chennai.",
     images: ["/images/og-image.webp"],
   },
 };

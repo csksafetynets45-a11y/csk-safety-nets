@@ -22,17 +22,17 @@ export interface ProjectDetail {
 }
 
 export const projectsData: Record<string, ProjectDetail> = {
-  "balcony-safety-nets-whitefield": {
-    slug: "balcony-safety-nets-whitefield",
-    name: "High-Altitude Balcony Fall Protection at Prestige Palms, Whitefield",
+  "balcony-safety-nets-omr": {
+    slug: "balcony-safety-nets-omr",
+    name: "High-Altitude Balcony Fall Protection at Hiranandani Upscale, OMR",
     category: "safety-nets",
     service: "balcony-safety-nets",
     serviceName: "Balcony Safety Nets",
-    location: "Whitefield, Bangalore",
-    locationSlug: "whitefield",
+    location: "OMR (Old Mahabalipuram Road), Chennai",
+    locationSlug: "omr",
     date: "Completed May 2026",
-    description: "Full perimeter containment netting engineered for 14th and 15th story double-balcony apartments facing the tech park corridor in Whitefield.",
-    problem: "The resident moved into a 14th-floor high-rise with toddlers and an indoor cat. The modern open horizontal railing design presented high fall risks, while urban pigeons continuously nested on top of the AC outdoor compressor.",
+    description: "Full perimeter containment netting engineered for 18th and 19th story double-balcony apartments facing the IT expressway corridor on OMR, Chennai.",
+    problem: "The resident moved into an 18th-floor high-rise with toddlers and an indoor cat. The modern open horizontal railing design presented high fall risks under gusty coastal winds, while pigeons continuously nested on top of the AC outdoor compressor.",
     solution: "CSK Safety Nets & Invisible Grills deployed certified high-tenacity UV-stabilized copolymer netting with custom stainless steel eyebolt anchoring spaced every 15cm along the concrete ceiling and floor parapet, achieving a rock-solid, child-safe safety barrier with zero view impairment.",
     materialsUsed: [
       "Virgin UV-Stabilized HDPE Copolymer 1.5mm Knotted Webbing",
@@ -64,17 +64,17 @@ export const projectsData: Record<string, ProjectDetail> = {
     ],
   },
 
-  "invisible-grills-koramangala": {
-    slug: "invisible-grills-koramangala",
-    name: "Marine-Grade SS316 Invisible Grills at Raheja Residency, Koramangala",
+  "invisible-grills-anna-nagar": {
+    slug: "invisible-grills-anna-nagar",
+    name: "Marine-Grade SS316 Invisible Grills at Landmark Vertica, Anna Nagar",
     category: "invisible-grills",
     service: "balcony-invisible-grills",
     serviceName: "Balcony Invisible Grills",
-    location: "Koramangala, Bangalore",
-    locationSlug: "koramangala",
+    location: "Anna Nagar, Chennai",
+    locationSlug: "anna-nagar",
     date: "Completed June 2026",
-    description: "Panoramic view invisible grill installation across expansive high-rise balconies in a luxury apartment complex in Koramangala.",
-    problem: "A homeowner residing on the 10th floor needed robust security for their active pet. Traditional mild-steel grills suffered severe rusting and blocked natural light and breeze.",
+    description: "Panoramic view invisible grill installation across expansive high-rise balconies in a luxury apartment complex in Anna Nagar, Chennai.",
+    problem: "A homeowner residing on the 10th floor needed robust security for their active pet. Traditional mild-steel grills suffered severe rusting under Chennai humidity and blocked natural light and breeze.",
     solution: "CSK Safety Nets & Invisible Grills engineered a marine-grade SS316 cable invisible grill system with transparent DuPont nylon sheathing, secured by anodized structural aluminium guide channels to guarantee lifelong rust resistance and unobstructed 180-degree skyline views.",
     materialsUsed: [
       "SS316 Marine-Grade Multi-Strand Stainless Steel Wire Core (7x7)",
@@ -83,7 +83,7 @@ export const projectsData: Record<string, ProjectDetail> = {
       "Tamper-Proof Internal Stainless Lock-Bush Fasteners",
     ],
     process: [
-      "Assessed balcony structural slab and wind load variables.",
+      "Assessed balcony structural slab and coastal wind load variables.",
       "Securely anchored heavy aluminium base tracks into reinforced ceiling and floor slabs.",
       "Fed SS316 marine cables continuously through precision-spaced nylon roller tracks.",
       "Applied calibrated hydraulic tensioning across all vertical lines (3-inch pitch).",
@@ -102,21 +102,21 @@ export const projectsData: Record<string, ProjectDetail> = {
       { label: "Cable Composition", value: "SS316 Marine Stainless (Bite & Rust Proof)" },
       { label: "Cable Pitch", value: "75mm (3 Inches) Architectural Spacing" },
       { label: "Breaking Force", value: "400+ kg tensile limit per cable" },
-      { label: "Corrosion Protection", value: "100% Weather Resistant" },
+      { label: "Corrosion Protection", value: "100% Coastal Weather & Salt Air Resistant" },
       { label: "Warranty Issued", value: "10+ Years Anti-Rust & Tension Guarantee" },
     ],
   },
 
-  "ceiling-hangers-indiranagar": {
-    slug: "ceiling-hangers-indiranagar",
-    name: "Space-Maximizing Pulley Cloth Drying System at Defence Colony, Indiranagar",
+  "ceiling-hangers-velachery": {
+    slug: "ceiling-hangers-velachery",
+    name: "Space-Maximizing Pulley Cloth Drying System at Ceebros Boulevard, Velachery",
     category: "cloth-hangers",
     service: "ceiling-cloth-hangers",
     serviceName: "Ceiling Cloth Hangers",
-    location: "Indiranagar, Bangalore",
-    locationSlug: "indiranagar",
+    location: "Velachery, Chennai",
+    locationSlug: "velachery",
     date: "Completed July 2026",
-    description: "Installation of a 6-pipe independent dual-pulley drying hoist system inside a compact apartment utility balcony in Indiranagar.",
+    description: "Installation of a 6-pipe independent dual-pulley drying hoist system inside a compact apartment utility balcony in Velachery, Chennai.",
     problem: "A family living in a 3-BHK apartment struggled with heavy metal folding drying stands that consumed the entire balcony walkway, blocked airflow, and hindered access to the washing machine.",
     solution: "CSK Safety Nets & Invisible Grills custom-mounted a heavy-duty 6-rod SS304 ceiling pulley drying system, allowing the homeowner to lower rods individually to chest level and hoist heavy wet laundry to the ceiling effortlessly.",
     materialsUsed: [
@@ -148,3 +148,8 @@ export const projectsData: Record<string, ProjectDetail> = {
     ],
   },
 };
+
+// Backward-compatibility aliases for previously cached URLs
+projectsData["balcony-safety-nets-whitefield"] = projectsData["balcony-safety-nets-omr"];
+projectsData["invisible-grills-koramangala"] = projectsData["invisible-grills-anna-nagar"];
+projectsData["ceiling-hangers-indiranagar"] = projectsData["ceiling-hangers-velachery"];

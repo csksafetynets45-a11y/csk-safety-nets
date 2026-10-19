@@ -6,14 +6,14 @@ import { generateBreadcrumbSchema } from "@/utils/schema";
 export const metadata: Metadata = {
   title: "Terms & Conditions | CSK Safety Nets & Invisible Grills",
   description:
-    "Official Terms and Conditions for CSK Safety Nets & Invisible Grills. Review our transparent service pricing, 3-to-5 year warranty certificate guidelines, humane bird control standards, and free measurement terms across Bangalore.",
+    "Official Terms and Conditions for CSK Safety Nets & Invisible Grills. Review our transparent service pricing, 3-to-5 year warranty certificate guidelines, humane bird control standards, and free measurement terms across Chennai.",
   alternates: {
     canonical: "/terms-and-conditions",
   },
   openGraph: {
     title: "Terms & Conditions | CSK Safety Nets & Invisible Grills",
     description:
-      "Review terms of service, transparent pricing, warranty commitments, and safety installation policies for CSK Safety Nets & Invisible Grills across Bangalore.",
+      "Review terms of service, transparent pricing, warranty commitments, and safety installation policies for CSK Safety Nets & Invisible Grills across Chennai.",
     url: "https://csksafetynets.in/terms-and-conditions",
     images: [
       {
@@ -106,7 +106,7 @@ export default function TermsAndConditionsPage() {
                 Agreement to Terms
               </h2>
               <p>
-                Welcome to CSK Safety Nets & Invisible Grills. By visiting our website, submitting an inquiry form, or booking our safety netting, invisible grills, or bird deterrent installation services across Bangalore, you agree to be bound by these Terms and Conditions. These terms ensure a transparent, secure, and professional relationship between CSK Safety Nets & Invisible Grills (&ldquo;Company&rdquo;, &ldquo;we&rdquo;, or &ldquo;our&rdquo;) and the customer (&ldquo;you&rdquo;).
+                Welcome to CSK Safety Nets & Invisible Grills. By visiting our website, submitting an inquiry form, or booking our safety netting, invisible grills, or bird deterrent installation services across Chennai, you agree to be bound by these Terms and Conditions. These terms ensure a transparent, secure, and professional relationship between CSK Safety Nets & Invisible Grills (&ldquo;Company&rdquo;, &ldquo;we&rdquo;, or &ldquo;our&rdquo;) and the customer (&ldquo;you&rdquo;).
               </p>
             </section>
 
@@ -116,7 +116,7 @@ export default function TermsAndConditionsPage() {
                 Free Site Measurement &amp; Quotation Policy
               </h2>
               <ul className="list-disc pl-5 space-y-1.5 text-slate-600">
-                <li><strong>No-Obligation Inspections:</strong> We provide 100% complimentary site visits and laser measurements across Whitefield, Koramangala, Indiranagar, HSR Layout, Electronic City, Jayanagar, Marathahalli, and surrounding Bangalore, Karnataka areas.</li>
+                <li><strong>No-Obligation Inspections:</strong> We provide 100% complimentary site visits and laser measurements across Anna Nagar, T. Nagar, Velachery, OMR, Porur, Adyar, Tambaram, and surrounding Chennai, Tamil Nadu areas.</li>
                 <li><strong>Material Demos:</strong> Our technician carries authentic material samples (Garware HDPE nets, SS316 marine-grade cables, polycarbonate bird spikes) so you can inspect material strength before deciding.</li>
                 <li><strong>Transparent Written Quotations:</strong> You will receive a written estimate with per-square-foot rates, total area calculations, and material specifications. An inquiry does not bind you until you formally approve the written quote.</li>
               </ul>
@@ -193,7 +193,7 @@ export default function TermsAndConditionsPage() {
                 Governing Law &amp; Jurisdiction
               </h2>
               <p className="text-xs text-slate-600">
-                These terms and any service contracts executed by CSK Safety Nets & Invisible Grills shall be governed by and construed in accordance with the laws of India. Any disputes arising in connection with our services shall be subject to the exclusive jurisdiction of the competent courts of Bangalore, Karnataka.
+                These terms and any service contracts executed by CSK Safety Nets & Invisible Grills shall be governed by and construed in accordance with the laws of India. Any disputes arising in connection with our services shall be subject to the exclusive jurisdiction of the competent courts of Chennai, Tamil Nadu.
               </p>
             </section>
 

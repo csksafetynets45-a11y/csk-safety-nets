@@ -1,6 +1,6 @@
 import { MetadataRoute } from "next";
 import { servicesData } from "@/utils/servicesData";
-import { bangaloreAreasList } from "@/utils/areasData";
+import { chennaiAreasList } from "@/utils/areasData";
 import { projectsData } from "@/utils/projectsData";
 import { blogData } from "@/utils/blogData";
 
@@ -51,18 +51,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.85,
   }));
 
-  // 4. Dynamic Bangalore Area Hubs (All 110+ Localities)
-  const areaRoutes = bangaloreAreasList.map((slug) => ({
+  // 4. Dynamic Chennai Area Hubs (All 120+ Localities)
+  const areaRoutes = chennaiAreasList.map((slug) => ({
     url: `${baseUrl}/areas/${slug}`,
     lastModified: new Date(),
     changeFrequency: "weekly" as const,
     priority: 0.85,
   }));
 
-  // 5. Dynamic High-Conversion Service + Location Landing Pages (18 services x 110 areas = 1,980 pages)
+  // 5. Dynamic High-Conversion Service + Location Landing Pages (18 services x 122 areas)
   const serviceAreaRoutes: MetadataRoute.Sitemap = [];
   Object.keys(servicesData).forEach((serviceSlug) => {
-    bangaloreAreasList.forEach((areaSlug) => {
+    chennaiAreasList.forEach((areaSlug) => {
       serviceAreaRoutes.push({
         url: `${baseUrl}/services/${serviceSlug}/${areaSlug}`,
         lastModified: new Date(),
@@ -72,16 +72,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
     });
   });
 
-  // 6. Project Case Studies
-  const projectRoutes = Object.keys(projectsData).map((slug) => ({
+  // 6. Project Case Studies (Canonical slugs only, excluding backward-compatibility aliases)
+  const canonicalProjectSlugs = Array.from(new Set(Object.values(projectsData).map((p) => p.slug)));
+  const projectRoutes = canonicalProjectSlugs.map((slug) => ({
     url: `${baseUrl}/projects/${slug}`,
     lastModified: new Date(),
     changeFrequency: "monthly" as const,
     priority: 0.7,
   }));
 
-  // 7. Long-Form Blog Guides
-  const blogRoutes = Object.keys(blogData).map((slug) => ({
+  // 7. Long-Form Blog Guides (Canonical slugs only, excluding backward-compatibility aliases)
+  const canonicalBlogSlugs = Array.from(new Set(Object.values(blogData).map((b) => b.slug)));
+  const blogRoutes = canonicalBlogSlugs.map((slug) => ({
     url: `${baseUrl}/blog/${slug}`,
     lastModified: new Date(),
     changeFrequency: "monthly" as const,

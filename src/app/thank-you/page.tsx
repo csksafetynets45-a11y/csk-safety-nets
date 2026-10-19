@@ -30,7 +30,7 @@ export default function ThankYouPage() {
         </div>
 
         <p className="text-slate-500 text-xs sm:text-sm leading-relaxed">
-          Thank you for contacting CSK Safety Nets & Invisible Grills. Our local Bangalore, Karnataka team will review your service requirements and contact you within 24 hours to schedule your free site inspection.
+          Thank you for contacting CSK Safety Nets & Invisible Grills. Our local Chennai, Tamil Nadu team will review your service requirements and contact you within 24 hours to schedule your free site inspection.
         </p>
 
         {/* Back channels */}

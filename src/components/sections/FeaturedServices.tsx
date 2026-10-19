@@ -22,7 +22,7 @@ const categories = [
     name: "Safety Net Solutions",
     subtitle: "Certified High-Density UV-Stabilized Polymer Netting",
     description:
-      "Engineered for high-altitude balconies, open building shafts, child fall containment, and humane bird deterrence across Bangalore.",
+      "Engineered for high-altitude balconies, open building shafts, child fall containment, and humane bird deterrence across Chennai.",
     icon: Shield,
     badgeColor: "bg-[#A61E22]",
     services: [
@@ -81,7 +81,7 @@ export default function FeaturedServices() {
             <span>Complete Doorstep Service Catalog</span>
           </div>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-[#A61E22] tracking-tight leading-tight">
-            All 18 Installation Services in Bangalore
+            All 18 Installation Services in Chennai
           </h2>
           <p className="mt-4 text-sm sm:text-base text-slate-600 leading-relaxed">
             Scroll below to explore all our certified installation solutions. Every service includes free doorstep laser measurements, genuine SS304/SS316 hardware, and a written 5-year replacement warranty.
@@ -160,7 +160,7 @@ export default function FeaturedServices() {
                         <div className="relative h-60 w-full overflow-hidden bg-slate-100">
                           <Image
                             src={service.image}
-                            alt={`CSK Safety Nets & Invisible Grills - ${service.name} Installation in Bangalore, Karnataka`}
+                            alt={`CSK Safety Nets & Invisible Grills - ${service.name} Installation in Chennai, Tamil Nadu`}
                             fill
                             sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                             className="object-cover group-hover:scale-105 transition-transform duration-500"
@@ -223,7 +223,7 @@ export default function FeaturedServices() {
                           <span>Call</span>
                         </a>
                         <a
-                          href={`https://wa.me/917981910891?text=Hi%20CSK%20Safety%20Nets,%20I%20am%20interested%20in%20${encodeURIComponent(service.name)}%20installation%20in%20Bangalore.`}
+                          href={`https://wa.me/917981910891?text=Hi%20CSK%20Safety%20Nets,%20I%20am%20interested%20in%20${encodeURIComponent(service.name)}%20installation%20in%20Chennai.`}
                           target="_blank"
                           rel="noopener noreferrer"
                           className="bg-emerald-50 hover:bg-[#25D366] text-emerald-700 hover:text-white font-bold py-3 px-3.5 rounded-xl text-xs flex items-center justify-center gap-1.5 transition-all"
@@ -245,7 +245,7 @@ export default function FeaturedServices() {
         <div className="mt-20 bg-gradient-to-r from-[#A61E22] to-[#8E1A1E] rounded-3xl p-8 sm:p-10 text-white shadow-xl flex flex-col md:flex-row items-center justify-between gap-6 border border-white/10">
           <div className="max-w-xl text-center md:text-left">
             <span className="text-[#FDE047] text-xs font-extrabold uppercase tracking-wider">
-              Free Doorstep Service Across All Bangalore Localities
+              Free Doorstep Service Across All Chennai Localities
             </span>
             <h3 className="text-2xl sm:text-3xl font-black mt-2">
               Need a Custom Measurement for Your Balcony or Windows?
@@ -263,7 +263,7 @@ export default function FeaturedServices() {
               <span>Call 79819 10891</span>
             </a>
             <a
-              href="https://wa.me/917981910891?text=Hi%20CSK%20Safety%20Nets,%20I%20would%20like%20to%20book%20a%20free%20doorstep%20measurement%20in%20Bangalore."
+              href="https://wa.me/917981910891?text=Hi%20CSK%20Safety%20Nets,%20I%20would%20like%20to%20book%20a%20free%20doorstep%20measurement%20in%20Chennai."
               target="_blank"
               rel="noopener noreferrer"
               className="bg-[#25D366] hover:bg-emerald-600 text-white font-black px-6 py-3.5 rounded-xl text-sm flex items-center justify-center gap-2 shadow-md transition-all cursor-pointer"

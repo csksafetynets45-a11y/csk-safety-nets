@@ -8,14 +8,14 @@ import { fetchContent } from "@/sanity/client";
 export const metadata: Metadata = {
   title: "Safety & Childproofing Blog | CSK Safety Nets & Invisible Grills",
   description:
-    "Expert guides on safety nets, invisible grills, and bird exclusion across Bangalore: Whitefield, Koramangala, Indiranagar, HSR Layout, Electronic City, Marathahalli, and Sarjapur Road.",
+    "Expert guides on safety nets, invisible grills, and bird exclusion across Chennai: Anna Nagar, T. Nagar, Velachery, OMR, Porur, Adyar, and Tambaram.",
   alternates: {
     canonical: "/blog",
   },
   openGraph: {
     title: "Safety & Childproofing Blog | CSK Safety Nets & Invisible Grills",
     description:
-      "Expert guides on safety nets, invisible grills, and bird exclusion across Bangalore: Whitefield, Koramangala, Indiranagar, HSR Layout, Electronic City, Marathahalli, and Sarjapur Road.",
+      "Expert guides on safety nets, invisible grills, and bird exclusion across Chennai: Anna Nagar, T. Nagar, Velachery, OMR, Porur, Adyar, and Tambaram.",
     url: "https://csksafetynets.in/blog",
     images: [
       {
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Safety & Childproofing Blog | CSK Safety Nets & Invisible Grills",
     description:
-      "Expert guides on safety nets, invisible grills, and bird exclusion across Bangalore serving Whitefield, Koramangala, Indiranagar, HSR Layout, Electronic City, Marathahalli, and Sarjapur Road.",
+      "Expert guides on safety nets, invisible grills, and bird exclusion across Chennai serving Anna Nagar, T. Nagar, Velachery, OMR, Porur, Adyar, and Tambaram.",
     images: ["/images/og-image.webp"],
   },
 };
@@ -49,7 +49,7 @@ export default async function BlogPage() {
     "@type": "CollectionPage",
     "name": "Safety and Home Childproofing Blog | CSK Safety Nets & Invisible Grills",
     "url": "https://csksafetynets.in/blog",
-    "description": "Resources on balcony netting, invisible grills, and safety advice across Bangalore.",
+    "description": "Resources on balcony netting, invisible grills, and safety advice across Chennai.",
   };
 
   return (

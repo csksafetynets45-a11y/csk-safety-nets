@@ -22,7 +22,7 @@ export function ServiceHero({ name, categoryName, title, subtitle, aiOverview, i
       <div className="absolute inset-0 z-0">
         <Image
           src={image}
-          alt={`CSK Safety Nets & Invisible Grills - ${name} Installation in Bangalore`}
+          alt={`CSK Safety Nets & Invisible Grills - ${name} Installation in Chennai`}
           fill
           priority
           sizes="100vw"
@@ -169,7 +169,7 @@ export function ServiceTrustBar() {
     { label: "Premium Materials", icon: <ShieldCheck className="w-4 h-4 text-[#D4AF37]" /> },
     { label: "Fast Response", icon: <Clock className="w-4 h-4 text-[#D4AF37]" /> },
     { label: "Affordable Pricing", icon: <Award className="w-4 h-4 text-[#D4AF37]" /> },
-    { label: "Bangalore, Karnataka Coverage", icon: <Globe className="w-4 h-4 text-[#D4AF37]" /> },
+    { label: "Chennai, Tamil Nadu Coverage", icon: <Globe className="w-4 h-4 text-[#D4AF37]" /> },
     { label: "Customer Satisfaction", icon: <CheckCircle2 className="w-4 h-4 text-[#D4AF37]" /> },
   ];
 

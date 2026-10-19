@@ -7,14 +7,14 @@ import { Home } from "lucide-react";
 export const metadata: Metadata = {
   title: "Completed Projects | CSK Safety Nets & Invisible Grills",
   description:
-    "View completed safety net and invisible grill installation projects by CSK Safety Nets & Invisible Grills across Bangalore: Whitefield, Koramangala, Indiranagar, HSR Layout, Electronic City, Marathahalli, and Sarjapur Road.",
+    "View completed safety net and invisible grill installation projects by CSK Safety Nets & Invisible Grills across Chennai: Anna Nagar, T. Nagar, Velachery, OMR, Porur, Adyar, and Tambaram.",
   alternates: {
     canonical: "/projects",
   },
   openGraph: {
     title: "Completed Projects | CSK Safety Nets & Invisible Grills",
     description:
-      "View completed safety net and invisible grill installation projects by CSK Safety Nets & Invisible Grills across Bangalore: Whitefield, Koramangala, Indiranagar, HSR Layout, Electronic City, Marathahalli, and Sarjapur Road.",
+      "View completed safety net and invisible grill installation projects by CSK Safety Nets & Invisible Grills across Chennai: Anna Nagar, T. Nagar, Velachery, OMR, Porur, Adyar, and Tambaram.",
     url: "https://csksafetynets.in/projects",
     images: [
       {
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Completed Projects | CSK Safety Nets & Invisible Grills",
     description:
-      "View completed safety net and invisible grill installation projects by CSK Safety Nets & Invisible Grills across Bangalore serving Whitefield, Koramangala, Indiranagar, HSR Layout, Electronic City, Marathahalli, and Sarjapur Road.",
+      "View completed safety net and invisible grill installation projects by CSK Safety Nets & Invisible Grills across Chennai serving Anna Nagar, T. Nagar, Velachery, OMR, Porur, Adyar, and Tambaram.",
     images: ["/images/og-image.webp"],
   },
 };
@@ -70,7 +70,7 @@ export default function ProjectsPage() {
             Our Installation Portfolio
           </h1>
           <p className="text-slate-500 text-sm sm:text-base leading-relaxed">
-            Review case profiles of completed safety netting systems and invisible grills installed by CSK Safety Nets & Invisible Grills in residential blocks and factories across Bangalore.
+            Review case profiles of completed safety netting systems and invisible grills installed by CSK Safety Nets & Invisible Grills in residential blocks and factories across Chennai.
           </p>
         </div>
 

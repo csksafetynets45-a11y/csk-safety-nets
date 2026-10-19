@@ -5,10 +5,10 @@ interface MapFrameProps {
   className?: string;
 }
 
-export default function MapFrame({ areaName = "Bangalore, Karnataka", className = "" }: MapFrameProps) {
+export default function MapFrame({ areaName = "Chennai, Tamil Nadu", className = "" }: MapFrameProps) {
   // Safe embed of OpenStreetMap or structured Google Maps search frame
   // This provides a visual map block without immediately pulling expensive client API keys
-  const mapSearchUrl = `https://maps.google.com/maps?q=Ram%20Enterprises%20Bangalore%20${encodeURIComponent(
+  const mapSearchUrl = `https://maps.google.com/maps?q=CSK%20Safety%20Nets%20Chennai%20${encodeURIComponent(
     areaName
   )}&t=&z=13&ie=UTF8&iwloc=&output=embed`;
 

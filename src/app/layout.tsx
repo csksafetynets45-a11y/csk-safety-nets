@@ -17,27 +17,27 @@ import { generateLocalBusinessSchema } from "@/utils/schema";
 
 export const metadata: Metadata = {
   title: {
-    default: "CSK Safety Nets & Invisible Grills | Bangalore, Karnataka",
+    default: "CSK Safety Nets & Invisible Grills | Chennai, Tamil Nadu",
     template: "%s",
   },
   description:
-    "CSK Safety Nets & Invisible Grills delivers premium balcony safety nets, child fall protection, invisible wire grills, and anti-pigeon solutions across Bangalore — Sarjapur Road, Bellandur, Hennur, Rajajinagar, Malleshwaram, Basavanagudi, Koramangala & more. Same-week installation. Written warranty.",
+    "CSK Safety Nets & Invisible Grills delivers premium balcony safety nets, child fall protection, SS316 invisible wire grills, and anti-pigeon solutions across Chennai — Anna Nagar, T. Nagar, Velachery, OMR, Porur, Adyar, Tambaram, Medavakkam & 120+ localities. Same-day inspection. Written warranty.",
   keywords: [
-    "Safety Nets Bangalore",
-    "Invisible Grills Bangalore",
-    "Balcony Safety Nets Bangalore",
-    "Child Safety Nets Bangalore",
-    "Pigeon Safety Nets Bangalore",
+    "Safety Nets Chennai",
+    "Invisible Grills Chennai",
+    "Balcony Safety Nets Chennai",
+    "Child Safety Nets Chennai",
+    "Pigeon Safety Nets Chennai",
     "CSK Safety Nets",
-    "Safety Nets Sarjapur Road",
-    "Safety Nets Bellandur",
-    "Safety Nets Hennur",
-    "Safety Nets Rajajinagar",
-    "Safety Nets Malleshwaram",
-    "Invisible Grills Koramangala",
-    "Invisible Grills Basavanagudi",
-    "Window Invisible Grills Bangalore",
-    "Ceiling Cloth Hangers Bangalore",
+    "Safety Nets OMR",
+    "Safety Nets Velachery",
+    "Safety Nets Anna Nagar",
+    "Safety Nets Porur",
+    "Safety Nets Tambaram",
+    "Invisible Grills T Nagar",
+    "Invisible Grills Adyar",
+    "Window Invisible Grills Chennai",
+    "Ceiling Cloth Hangers Chennai",
   ],
   metadataBase: new URL("https://csksafetynets.in"),
   verification: {
@@ -57,9 +57,9 @@ export const metadata: Metadata = {
     ],
   },
   openGraph: {
-    title: "CSK Safety Nets & Invisible Grills | Bangalore, Karnataka",
+    title: "CSK Safety Nets & Invisible Grills | Chennai, Tamil Nadu",
     description:
-      "Premium safety nets and invisible grill installation across Bangalore — Sarjapur Road, Bellandur, Hennur, Malleshwaram, Rajajinagar, Basavanagudi & 90+ localities. Fast turnaround. Written warranty.",
+      "Premium safety nets and marine-grade SS316 invisible grill installation across Chennai — Anna Nagar, T. Nagar, Velachery, OMR, Porur, Adyar, Tambaram & 120+ localities. Fast turnaround. Written warranty.",
     url: "https://csksafetynets.in",
     siteName: "CSK Safety Nets & Invisible Grills",
     images: [
@@ -67,7 +67,7 @@ export const metadata: Metadata = {
         url: "/images/og-image.webp",
         width: 1200,
         height: 630,
-        alt: "CSK Safety Nets & Invisible Grills — Bangalore, Karnataka",
+        alt: "CSK Safety Nets & Invisible Grills — Chennai, Tamil Nadu",
       },
     ],
     locale: "en_IN",
@@ -75,9 +75,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "CSK Safety Nets & Invisible Grills | Bangalore",
+    title: "CSK Safety Nets & Invisible Grills | Chennai",
     description:
-      "Trusted safety nets and invisible grills across Bangalore — fast installation, premium materials, written warranty. Call 7981910891.",
+      "Trusted safety nets and invisible grills across Chennai — fast installation, marine SS316 materials, written warranty. Call 7981910891.",
     images: ["/images/og-image.webp"],
   },
 };

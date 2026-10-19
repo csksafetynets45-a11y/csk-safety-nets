@@ -8,14 +8,14 @@ import ContactForm from "@/components/forms/ContactForm";
 export const metadata: Metadata = {
   title: "Contact Us | CSK Safety Nets & Invisible Grills",
   description:
-    "Schedule a complimentary on-site measurement or speak directly with our safety engineering team in Bangalore. Call +91 79819 10891 for instant assistance.",
+    "Schedule a complimentary on-site measurement or speak directly with our safety engineering team in Chennai. Call +91 79819 10891 for instant assistance.",
   alternates: {
     canonical: "/contact",
   },
   openGraph: {
     title: "Contact Us | CSK Safety Nets & Invisible Grills",
     description:
-      "Schedule a complimentary on-site measurement or speak directly with our safety engineering team in Bangalore. Call +91 79819 10891 for instant assistance.",
+      "Schedule a complimentary on-site measurement or speak directly with our safety engineering team in Chennai. Call +91 79819 10891 for instant assistance.",
     url: "https://csksafetynets.in/contact",
     images: [
       {
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Contact Us | CSK Safety Nets & Invisible Grills",
     description:
-      "Contact CSK Safety Nets & Invisible Grills for free site measurement & instant quotes in Bangalore serving Whitefield, Koramangala, Indiranagar, HSR Layout, Electronic City, Marathahalli, and Sarjapur Road.",
+      "Contact CSK Safety Nets & Invisible Grills for free site measurement & instant quotes in Chennai serving Anna Nagar, T. Nagar, Velachery, OMR, Porur, Adyar, and Tambaram.",
     images: ["/images/og-image.webp"],
   },
 };
@@ -88,7 +88,7 @@ export default function ContactPage() {
                 <div className="flex flex-col gap-1">
                   <span className="text-[10px] uppercase font-bold text-slate-500">Service Coverage Area</span>
                   <span className="text-sm font-bold text-slate-700 mt-1">
-                    Bangalore, Karnataka (Whitefield, Koramangala, Indiranagar, HSR Layout, Electronic City, Marathahalli, Jayanagar)
+                    Chennai, Tamil Nadu (Anna Nagar, T. Nagar, Velachery, OMR, Porur, Adyar, Tambaram, Medavakkam &amp; 120+ localities)
                   </span>
                 </div>
               </div>
@@ -132,7 +132,7 @@ export default function ContactPage() {
           {/* Map Frame (Right) */}
           <div className="lg:col-span-7 flex flex-col gap-3">
             <h3 className="text-sm font-bold text-slate-800 uppercase tracking-wider text-left">Service Territory Map</h3>
-            <MapFrame areaName="Bangalore, Karnataka" className="h-[360px]" />
+            <MapFrame areaName="Chennai, Tamil Nadu" className="h-[360px]" />
           </div>
         </div>
 

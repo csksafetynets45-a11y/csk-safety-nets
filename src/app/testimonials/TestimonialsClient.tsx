@@ -29,29 +29,29 @@ const testimonialsData: Testimonial[] = [
   {
     id: 1,
     name: "Dr. K. Srinivasan",
-    location: "ITPL Road, Whitefield",
+    location: "Navalur, OMR",
     rating: 5,
     date: "July 2026",
     category: "invisible-grills",
     serviceName: "Balcony Invisible Grills",
     comment:
-      "CSK Safety Nets & Invisible Grills installed SS316 marine-grade invisible grills across our 15th-floor balcony in Whitefield. The sweeping panorama of Bangalore skyline remains completely unhindered while keeping our grandchildren safe. Exceptional engineering and neat finishing!",
+      "CSK Safety Nets & Invisible Grills installed SS316 marine-grade invisible grills across our 15th-floor balcony in OMR. The sweeping panorama of Chennai skyline remains completely unhindered while keeping our grandchildren safe. Exceptional engineering and neat finishing!",
   },
   {
     id: 2,
     name: "Cdr. (Retd.) Rajesh Nair",
-    location: "4th Block, Koramangala",
+    location: "Anna Nagar West, Chennai",
     rating: 5,
     date: "June 2026",
     category: "safety-nets",
     serviceName: "Balcony Safety Nets",
     comment:
-      "Balcony safety in a multi-story apartment was our top priority. CSK Safety Nets & Invisible Grills fitted heavy UV-stabilized copolymer netting with high-grade stainless anchors. Zero sagging even during heavy Bangalore monsoon gusts.",
+      "Balcony safety in a multi-story apartment was our top priority. CSK Safety Nets & Invisible Grills fitted heavy UV-stabilized copolymer netting with high-grade stainless anchors. Zero sagging even during heavy Chennai monsoon gusts.",
   },
   {
     id: 3,
     name: "Padmavathi Krishnan",
-    location: "100 Feet Road, Indiranagar",
+    location: "Pondy Bazaar, T. Nagar",
     rating: 5,
     date: "June 2026",
     category: "safety-nets",
@@ -62,18 +62,18 @@ const testimonialsData: Testimonial[] = [
   {
     id: 4,
     name: "N. Venkatesh",
-    location: "Neeladri Nagar, Electronic City",
+    location: "Velachery Main Road, Chennai",
     rating: 5,
     date: "June 2026",
     category: "safety-nets",
     serviceName: "Monkey Safety Nets",
     comment:
-      "Our gated society bordering the green zone frequently faced monkey raids that destroyed plants. CSK Safety Nets & Invisible Grills installed heavy-gauge monkey proof nets with steel expansion fasteners. It safely keeps them out without harming them.",
+      "Our gated society near green reserve zones faced frequent monkey nuisance that damaged balcony gardens. CSK Safety Nets & Invisible Grills installed heavy-gauge monkey proof nets with steel expansion fasteners. It safely keeps them out without harming them.",
   },
   {
     id: 5,
     name: "Anand & Priya Joshi",
-    location: "Sector 2, HSR Layout",
+    location: "Porur Gardens, Porur",
     rating: 5,
     date: "May 2026",
     category: "invisible-grills",
@@ -84,7 +84,7 @@ const testimonialsData: Testimonial[] = [
   {
     id: 6,
     name: "S. Murugesan",
-    location: "Kundalahalli Gate, Marathahalli",
+    location: "Tambaram Sanatorium, Tambaram",
     rating: 5,
     date: "May 2026",
     category: "cloth-hangers",
@@ -95,7 +95,7 @@ const testimonialsData: Testimonial[] = [
   {
     id: 7,
     name: "Vikramaditya Rao",
-    location: "4th Block, Jayanagar",
+    location: "Gandhi Nagar, Adyar",
     rating: 5,
     date: "May 2026",
     category: "invisible-grills",
@@ -106,7 +106,7 @@ const testimonialsData: Testimonial[] = [
   {
     id: 8,
     name: "Dr. Shalini Deshmukh",
-    location: "Judicial Layout, Yelahanka",
+    location: "Besant Nagar, Chennai",
     rating: 5,
     date: "April 2026",
     category: "safety-nets",
@@ -117,7 +117,7 @@ const testimonialsData: Testimonial[] = [
   {
     id: 9,
     name: "Raghavendra Hegde",
-    location: "Phase 7, JP Nagar",
+    location: "Thiruvanmiyur, ECR",
     rating: 5,
     date: "April 2026",
     category: "invisible-grills",
@@ -128,7 +128,7 @@ const testimonialsData: Testimonial[] = [
   {
     id: 10,
     name: "Girish Sharma",
-    location: "Hulimavu, Bannerghatta Road",
+    location: "Perungudi, Chennai",
     rating: 5,
     date: "March 2026",
     category: "safety-nets",
@@ -139,7 +139,7 @@ const testimonialsData: Testimonial[] = [
   {
     id: 11,
     name: "Deepa Ramachandran",
-    location: "Kaikondrahalli, Sarjapur Road",
+    location: "Medavakkam, Chennai",
     rating: 5,
     date: "March 2026",
     category: "safety-nets",
@@ -150,7 +150,7 @@ const testimonialsData: Testimonial[] = [
   {
     id: 12,
     name: "Col. Sanjeev Bakshi",
-    location: "Hebbal Kempapura, Hebbal",
+    location: "Sholinganallur, OMR",
     rating: 5,
     date: "February 2026",
     category: "safety-nets",
@@ -190,7 +190,7 @@ export default function TestimonialsClient() {
             Verified Resident Feedback
           </span>
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-slate-900 tracking-tight leading-tight">
-            Client Testimonials Across Bangalore
+            Client Testimonials Across Chennai
           </h1>
           <p className="text-slate-600 text-sm sm:text-base leading-relaxed">
             Read unedited reviews from homeowners, gated societies, parents, and pet lovers who rely on CSK Safety Nets & Invisible Grills for high-altitude fall protection and bird containment.
@@ -268,7 +268,7 @@ export default function TestimonialsClient() {
               Complimentary Doorstep Inspection
             </span>
             <h2 className="text-2xl sm:text-3xl font-extrabold text-white mb-2">
-              Ready to Safeguard Your High-Rise Home in Bangalore?
+              Ready to Safeguard Your High-Rise Home in Chennai?
             </h2>
             <p className="text-slate-200 text-xs sm:text-sm">
               Schedule a free laser measurement visit with physical sample demonstration. Written quote with 5 to 10 year warranty.

@@ -39,7 +39,7 @@ export default function CostCalculator() {
   const maxCost = Math.round(estimatedCost * 1.05);
 
   const whatsappMessage = encodeURIComponent(
-    `Hi CSK Safety Nets & Invisible Grills, I calculated an estimate for ${selectedService.name} (~${areaSqFt} ${selectedService.unit}) around ₹${minCost} - ₹${maxCost}. Please confirm my free site inspection time in Bangalore.`
+    `Hi CSK Safety Nets & Invisible Grills, I calculated an estimate for ${selectedService.name} (~${areaSqFt} ${selectedService.unit}) around ₹${minCost} - ₹${maxCost}. Please confirm my free site inspection time in Chennai.`
   );
 
   return (
@@ -55,7 +55,7 @@ export default function CostCalculator() {
             Estimate Your Custom Installation Cost
           </h2>
           <p className="text-slate-600 text-sm sm:text-base leading-relaxed">
-            Quickly estimate your investment for balcony safety nets, invisible grills, or cloth drying systems in Bangalore. <span className="font-bold text-[#A61E22]">Transparent rates + Free on-site laser measurement.</span>
+            Quickly estimate your investment for balcony safety nets, invisible grills, or cloth drying systems in Chennai. <span className="font-bold text-[#A61E22]">Transparent rates + Free on-site laser measurement.</span>
           </p>
         </div>
 
@@ -155,7 +155,7 @@ export default function CostCalculator() {
               </span>
               <h3 className="text-lg font-bold text-white mb-1">{selectedService.name}</h3>
               <p className="text-xs text-slate-300 mb-6">
-                Calculated for ~{areaSqFt} {selectedService.unit} across Bangalore.
+                Calculated for ~{areaSqFt} {selectedService.unit} across Chennai.
               </p>
 
               <div className="bg-[#7A1417] rounded-2xl p-6 border border-[#8E1A1E] mb-6 text-center">

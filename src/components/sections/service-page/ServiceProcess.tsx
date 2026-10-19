@@ -108,7 +108,7 @@ export function ServiceWhyChoose() {
   );
 }
 
-// Related Services, Bangalore, Karnataka Areas, Blogs
+// Related Services, Chennai, Tamil Nadu Areas, Blogs
 interface RelatedProps {
   related: ServiceDetail[];
   categoryName: string;
@@ -117,18 +117,19 @@ interface RelatedProps {
 
 export function ServiceRelated({ related, categoryName, currentServiceSlug }: RelatedProps) {
   const areas = [
-    { name: "Whitefield", slug: "whitefield" },
-    { name: "Koramangala", slug: "koramangala" },
-    { name: "Indiranagar", slug: "indiranagar" },
-    { name: "HSR Layout", slug: "hsr-layout" },
-    { name: "Electronic City", slug: "electronic-city" },
-    { name: "Marathahalli", slug: "marathahalli" },
-    { name: "Jayanagar", slug: "jayanagar" },
+    { name: "Anna Nagar", slug: "anna-nagar" },
+    { name: "T. Nagar", slug: "t-nagar" },
+    { name: "Velachery", slug: "velachery" },
+    { name: "OMR", slug: "omr" },
+    { name: "Porur", slug: "porur" },
+    { name: "Adyar", slug: "adyar" },
+    { name: "Tambaram", slug: "tambaram" },
+    { name: "Sholinganallur", slug: "sholinganallur" },
   ];
 
   const blogs = [
     { title: "Essential Balcony Safety Tips for Families living in High-Rise Apartments" },
-    { title: "Why SS316 Marine Grade Invisible Grills are Best for Humid Bangalore, Karnataka Coastlines" },
+    { title: "Why SS316 Marine Grade Invisible Grills are Best for Humid Chennai, Tamil Nadu Coastlines" },
     { title: "Ceiling Pulley Cloth Hangers: Maximizing Compact Living Balcony Space" },
   ];
 
@@ -153,7 +154,7 @@ export function ServiceRelated({ related, categoryName, currentServiceSlug }: Re
                       {service.name}
                     </span>
                     <span className="text-[10px] text-slate-500 font-medium">
-                      Professional Installation Bangalore, Karnataka
+                      Professional Installation Chennai, Tamil Nadu
                     </span>
                   </div>
                   <ArrowRight className="w-4 h-4 text-slate-500 group-hover:translate-x-1 group-hover:text-[#D4AF37] transition-all" />
@@ -164,7 +165,7 @@ export function ServiceRelated({ related, categoryName, currentServiceSlug }: Re
 
           {/* Related Areas & Blogs */}
           <div className="lg:col-span-6 flex flex-col gap-8">
-            {/* Bangalore, Karnataka Areas */}
+            {/* Chennai, Tamil Nadu Areas */}
             <div className="flex flex-col gap-4">
               <h3 className="text-lg font-bold text-slate-800 border-b border-slate-100 pb-3">
                 City Coverage &amp; Free Doorstep Inspection

@@ -33,7 +33,7 @@ const caseStudiesData: CaseStudy[] = [
   {
     id: 1,
     title: "Securing Multi-Story Balcony Railings at Skyview Residency",
-    location: "Whitefield, Bangalore, Karnataka",
+    location: "OMR, Chennai, Tamil Nadu",
     serviceCategory: "Balcony Safety Nets",
     image: "/images/main-images/balcony-safetynets.webp",
     challenge:
@@ -41,15 +41,15 @@ const caseStudiesData: CaseStudy[] = [
     solution:
       "CSK Safety Nets & Invisible Grills conducted an on-site structural assessment and anchored double-knotted, UV-stabilized copolymer safety netting using heavy SS304 eyebolts every 15cm into the structural concrete slab.",
     result:
-      "Completed in 2.5 hours with zero facade obstruction. The net has withstood gusty high-rise monsoon winds in Bangalore while providing reliable fall safety.",
+      "Completed in 2.5 hours with zero facade obstruction. The net has withstood gusty high-rise monsoon winds in Chennai while providing reliable fall safety.",
     quote:
       "CSK Safety Nets & Invisible Grills gave our family complete freedom on our balcony. The installation is remarkably neat and strong.",
-    clientName: "Srinivas & Priya V., Whitefield",
+    clientName: "Srinivas & Priya V., OMR",
   },
   {
     id: 2,
     title: "Panoramic Skyline Invisible Grills at High-Rise Penthouse",
-    location: "Koramangala, Bangalore, Karnataka",
+    location: "Anna Nagar, Chennai, Tamil Nadu",
     serviceCategory: "Balcony Invisible Grills",
     image: "/images/main-images/Balcony-Grills.jpg",
     challenge:
@@ -60,12 +60,12 @@ const caseStudiesData: CaseStudy[] = [
       "The cables maintain high tensile tension per line while remaining virtually invisible from inside the living room, completely immune to outdoor rust and weathering.",
     quote:
       "The invisible grills look extraordinarily sleek. Our skyline view remains pristine and the kids play safely.",
-    clientName: "Cdr. (Retd.) Rajesh Nair, Koramangala",
+    clientName: "Cdr. (Retd.) Rajesh Nair, Anna Nagar",
   },
   {
     id: 3,
     title: "Large-Scale Bird Proofing Across 12 Residential Duct Shafts",
-    location: "Indiranagar, Bangalore, Karnataka",
+    location: "Adyar, Chennai, Tamil Nadu",
     serviceCategory: "Duct Area Safety Nets",
     image: "/images/main-images/duct-area-real.webp",
     challenge:
@@ -76,12 +76,12 @@ const caseStudiesData: CaseStudy[] = [
       "Completely excluded bird roosting across all 12 building shafts without disrupting bathroom ventilation or plumbing maintenance access.",
     quote:
       "CSK Safety Nets & Invisible Grills executed a complex 12-shaft installation with exceptional speed and discipline. Outstanding job!",
-    clientName: "Society Management Committee, Indiranagar",
+    clientName: "Society Management Committee, Adyar",
   },
   {
     id: 4,
     title: "Compact Balcony Space Optimization with Ceiling Drying System",
-    location: "Electronic City, Bangalore, Karnataka",
+    location: "Tambaram, Chennai, Tamil Nadu",
     serviceCategory: "Ceiling Cloth Hangers",
     image: "/images/main-images/ceiling-cloth-hangers-1.jpg",
     challenge:
@@ -92,23 +92,23 @@ const caseStudiesData: CaseStudy[] = [
       "Reclaimed 100% of the balcony floor area. The smooth pulley mechanism allows each rod to be lowered and hoisted to ceiling height effortlessly.",
     quote:
       "It completely transformed our utility space. Heavy bedsheets dry quickly near the ceiling breeze.",
-    clientName: "Narasimha & Geetha M., Electronic City",
+    clientName: "Narasimha & Geetha M., Tambaram",
   },
   {
     id: 5,
     title: "Commercial Facility Anti-Pigeon Ledge Spikes Installation",
-    location: "HSR Layout, Bangalore, Karnataka",
+    location: "Porur, Chennai, Tamil Nadu",
     serviceCategory: "Anti-Bird Spikes",
     image: "/images/main-images/bird-spikes-real.jpg",
     challenge:
-      "Pigeons continuously roosted on narrow exterior window ledges and air-handling unit casings at a commercial hospital facility in HSR Layout, staining facades.",
+      "Pigeons continuously roosted on narrow exterior window ledges and air-handling unit casings at a commercial hospital facility in Porur, staining facades.",
     solution:
       "Mounted heavy-duty UV-stabilized polycarbonate base strips with SS304 blunt-tip anti-bird spikes along 750 linear feet of external architectural ledges.",
     result:
       "Bird roosting was eliminated 100% on the very same day without harming birds or disrupting medical operations.",
     quote:
       "The bird spikes permanently solved a persistent 3-year sanitation challenge in less than 4 hours.",
-    clientName: "Facility Operations Director, HSR Layout",
+    clientName: "Facility Operations Director, Porur",
   },
 ];
 
@@ -135,10 +135,10 @@ export default function CaseStudiesClient() {
               <Sparkles className="w-3.5 h-3.5" /> Proven Engineering Execution
             </span>
             <h1 className="text-3xl sm:text-5xl font-extrabold tracking-tight leading-tight mb-4 text-white">
-              Real Safety Installations Across Bangalore, Karnataka
+              Real Safety Installations Across Chennai, Tamil Nadu
             </h1>
             <p className="text-slate-200 text-base sm:text-lg leading-relaxed mb-6">
-              See how CSK Safety Nets & Invisible Grills engineers custom balcony fall-prevention barriers, bird exclusion systems, and space-saving solutions for high-rise homes and commercial properties across Bangalore.
+              See how CSK Safety Nets & Invisible Grills engineers custom balcony fall-prevention barriers, bird exclusion systems, and space-saving solutions for high-rise homes and commercial properties across Chennai.
             </p>
 
             <div className="flex flex-wrap items-center gap-6 pt-2 border-t border-white/15 text-xs sm:text-sm font-semibold text-slate-200">

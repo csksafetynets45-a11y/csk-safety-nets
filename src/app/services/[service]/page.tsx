@@ -27,7 +27,7 @@ export async function generateMetadata({ params }: PageProps) {
   }
 
   const title = `${serviceDetail.name} | CSK Safety Nets & Invisible Grills`;
-  const description = `${serviceDetail.description} Professional installation by CSK Safety Nets & Invisible Grills in Bangalore across Whitefield, Koramangala, Indiranagar, HSR Layout, Electronic City, Marathahalli, and Sarjapur Road.`;
+  const description = `${serviceDetail.description} Professional installation by CSK Safety Nets & Invisible Grills in Chennai across Anna Nagar, T. Nagar, Velachery, OMR, Porur, Adyar, and Tambaram.`;
 
   return {
     title,

@@ -65,7 +65,7 @@ export default function SearchCoreClient() {
     });
 
     // 3. Search Projects
-    Object.values(projectsData).forEach((project) => {
+    Array.from(new Set(Object.values(projectsData))).forEach((project) => {
       if (
         project.name.toLowerCase().includes(term) ||
         project.description.toLowerCase().includes(term) ||
@@ -82,7 +82,7 @@ export default function SearchCoreClient() {
     });
 
     // 4. Search Blogs
-    Object.values(blogData).forEach((post) => {
+    Array.from(new Set(Object.values(blogData))).forEach((post) => {
       if (
         post.title.toLowerCase().includes(term) ||
         post.summary.toLowerCase().includes(term) ||
@@ -156,7 +156,7 @@ export default function SearchCoreClient() {
             <div className="bg-white rounded-3xl p-10 border border-slate-200 text-center flex flex-col items-center gap-3">
               <span className="text-slate-500 font-semibold text-sm">No results match your search parameters.</span>
               <p className="text-slate-500 text-xs leading-relaxed max-w-sm">
-                Try searching for general keywords like &ldquo;balcony&rdquo;, &ldquo;invisible&rdquo;, &ldquo;Whitefield&rdquo;, or &ldquo;price&rdquo; to find listings.
+                Try searching for general keywords like &ldquo;balcony&rdquo;, &ldquo;invisible&rdquo;, &ldquo;Anna Nagar&rdquo;, or &ldquo;price&rdquo; to find listings.
               </p>
             </div>
           ) : (

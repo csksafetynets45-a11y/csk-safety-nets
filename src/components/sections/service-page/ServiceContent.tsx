@@ -103,7 +103,7 @@ export function ServiceImages({ name, image, supportingImages }: ImageCollagePro
           <div className="md:col-span-1 relative h-80 md:h-full rounded-3xl overflow-hidden border border-slate-200 shadow-md bg-slate-200">
             <Image
               src={imagesList[0]}
-              alt={`CSK Safety Nets & Invisible Grills - ${name} main installation view in Bangalore`}
+              alt={`CSK Safety Nets & Invisible Grills - ${name} main installation view in Chennai`}
               fill
               sizes="(max-width: 768px) 100vw, 33vw"
               className="object-cover hover:scale-103 transition-transform duration-500"

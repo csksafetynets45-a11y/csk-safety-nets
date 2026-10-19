@@ -23,7 +23,7 @@ export async function generateMetadata({ params }: PageProps) {
   }
 
   const title = `${project.name} | CSK Safety Nets & Invisible Grills`;
-  const description = `${project.description} Project executed by CSK Safety Nets & Invisible Grills in ${project.location}, Bangalore, Karnataka.`;
+  const description = `${project.description} Project executed by CSK Safety Nets & Invisible Grills in ${project.location}, Chennai, Tamil Nadu.`;
 
   return {
     title,
@@ -68,7 +68,7 @@ export default async function ProjectDetailPage({ params }: PageProps) {
   }
 
   // Related Projects (excluding current project)
-  const relatedProjects = Object.values(projectsData)
+  const relatedProjects = Array.from(new Set(Object.values(projectsData)))
     .filter((p) => p.category === project.category && p.slug !== project.slug)
     .slice(0, 3);
 
@@ -273,7 +273,7 @@ export default async function ProjectDetailPage({ params }: PageProps) {
             100% Quality Inspected &amp; Warranty Approved
           </span>
           <p className="text-xs text-slate-300 leading-relaxed">
-            This installation passed all tension safety tests, anchor load checks, and high-rise structural compliance standards across Bangalore.
+            This installation passed all tension safety tests, anchor load checks, and high-rise structural compliance standards across Chennai.
           </p>
         </div>
 

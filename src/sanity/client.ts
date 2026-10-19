@@ -34,9 +34,9 @@ export async function fetchContent(type: "services" | "areas" | "projects" | "bl
       if (type === "blogs") return blogData[slug] || null;
     } else {
       if (type === "services") return Object.values(servicesData);
-      if (type === "areas") return Object.values(areasData);
-      if (type === "projects") return Object.values(projectsData);
-      if (type === "blogs") return Object.values(blogData);
+      if (type === "areas") return Array.from(new Set(Object.values(areasData)));
+      if (type === "projects") return Array.from(new Set(Object.values(projectsData)));
+      if (type === "blogs") return Array.from(new Set(Object.values(blogData)));
     }
     return null;
   }
@@ -75,9 +75,9 @@ export async function fetchContent(type: "services" | "areas" | "projects" | "bl
       if (type === "blogs") return blogData[slug] || null;
     } else {
       if (type === "services") return Object.values(servicesData);
-      if (type === "areas") return Object.values(areasData);
-      if (type === "projects") return Object.values(projectsData);
-      if (type === "blogs") return Object.values(blogData);
+      if (type === "areas") return Array.from(new Set(Object.values(areasData)));
+      if (type === "projects") return Array.from(new Set(Object.values(projectsData)));
+      if (type === "blogs") return Array.from(new Set(Object.values(blogData)));
     }
     return null;
   }

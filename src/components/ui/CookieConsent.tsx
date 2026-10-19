@@ -38,7 +38,7 @@ export default function CookieConsent() {
         <div className="text-xs text-slate-300 leading-relaxed">
           <p className="font-bold text-white mb-1">Privacy &amp; Cookie Policy</p>
           <p>
-            We use cookies to improve your browsing experience, analyze local traffic in Bangalore, and enhance security.
+            We use cookies to improve your browsing experience, analyze local traffic in Chennai, and enhance security.
             Read our{" "}
             <Link href="/privacy-policy" className="text-[#E6C65A] hover:underline font-semibold">
               Privacy Policy

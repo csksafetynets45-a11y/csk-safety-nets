@@ -99,7 +99,7 @@ export const projectSchema = {
   fields: [
     { name: "title", title: "Project Title", type: "string", validation: (Rule: any) => Rule.required() },
     { name: "slug", title: "Slug", type: "slug", options: { source: "title", maxLength: 96 } },
-    { name: "location", title: "Location in Bangalore", type: "string" },
+    { name: "location", title: "Location in Chennai", type: "string" },
     { name: "date", title: "Completion Date", type: "string" },
     { name: "image", title: "Hero image", type: "image" },
     { name: "description", title: "Brief Description", type: "text" },

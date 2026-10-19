@@ -12,18 +12,18 @@ import {
   Building2,
   Sparkles,
   Phone,
-  ShieldCheck,
 } from "lucide-react";
 import { areasList } from "@/utils/areasData";
 import MapFrame from "@/components/ui/map-frame";
 
 const zoneFilters = [
-  { id: "all", name: "All 110+ Areas" },
-  { id: "east", name: "East & ITPL / ORR" },
-  { id: "south", name: "South & Electronic City" },
-  { id: "north", name: "North & Airport Corridor" },
-  { id: "west", name: "West & Mysore Road" },
+  { id: "all", name: "All 120+ Areas" },
   { id: "central", name: "Central & CBD" },
+  { id: "south-omr", name: "South & OMR Tech Corridor" },
+  { id: "west", name: "West & Porur / Ambattur" },
+  { id: "gst-suburbs", name: "Tambaram & GST Suburbs" },
+  { id: "ecr", name: "ECR & Coastal Belt" },
+  { id: "north", name: "North Chennai" },
 ];
 
 export default function AreasClient() {
@@ -43,137 +43,144 @@ export default function AreasClient() {
       if (activeZone === "all") return true;
 
       const slug = area.slug.toLowerCase();
-      if (activeZone === "east") {
+      if (activeZone === "central") {
         return (
-          slug.includes("whitefield") ||
-          slug.includes("marathahalli") ||
-          slug.includes("indiranagar") ||
-          slug.includes("hoodi") ||
-          slug.includes("varthur") ||
-          slug.includes("kadugodi") ||
-          slug.includes("brookefield") ||
-          slug.includes("panathur") ||
-          slug.includes("bellandur") ||
-          slug.includes("mahadevapura") ||
-          slug.includes("gunjur") ||
-          slug.includes("channasandra") ||
-          slug.includes("seegehalli") ||
-          slug.includes("k-r-puram") ||
-          slug.includes("ramamurthy") ||
-          slug.includes("tc-palya") ||
-          slug.includes("kaggadasapura") ||
-          slug.includes("gm-palya") ||
-          slug.includes("doddanekundi") ||
-          slug.includes("munnekolala") ||
-          slug.includes("kundalahalli")
+          slug.includes("anna-nagar") ||
+          slug.includes("t-nagar") ||
+          slug.includes("nungambakkam") ||
+          slug.includes("alwarpet") ||
+          slug.includes("mylapore") ||
+          slug.includes("mandaveli") ||
+          slug.includes("ra-puram") ||
+          slug.includes("kotturpuram") ||
+          slug.includes("kilpauk") ||
+          slug.includes("chetpet") ||
+          slug.includes("egmore") ||
+          slug.includes("triplicane") ||
+          slug.includes("royapettah") ||
+          slug.includes("gopalapuram") ||
+          slug.includes("kodambakkam") ||
+          slug.includes("west-mambalam") ||
+          slug.includes("saidapet") ||
+          slug.includes("guindy") ||
+          slug.includes("ekkatuthangal") ||
+          slug.includes("shenoy-nagar") ||
+          slug.includes("aminjikarai") ||
+          slug.includes("choolaimedu") ||
+          slug.includes("cit-nagar") ||
+          slug.includes("nandanam") ||
+          slug.includes("teynampet") ||
+          slug.includes("poes-garden") ||
+          slug.includes("ashok-nagar") ||
+          slug.includes("kk-nagar")
         );
       }
-      if (activeZone === "south") {
+      if (activeZone === "south-omr") {
         return (
-          slug.includes("koramangala") ||
-          slug.includes("hsr") ||
-          slug.includes("electronic") ||
-          slug.includes("jayanagar") ||
-          slug.includes("jp-nagar") ||
-          slug.includes("bannerghatta") ||
-          slug.includes("sarjapur") ||
-          slug.includes("btm") ||
-          slug.includes("kasavanahalli") ||
-          slug.includes("haralur") ||
-          slug.includes("kudlu") ||
-          slug.includes("singasandra") ||
-          slug.includes("bommanahalli") ||
-          slug.includes("begur") ||
-          slug.includes("hulimavu") ||
-          slug.includes("arekere") ||
-          slug.includes("gottigere") ||
-          slug.includes("kanakapura") ||
-          slug.includes("banashankari") ||
-          slug.includes("padmanabhanagar") ||
-          slug.includes("kumaraswamy") ||
-          slug.includes("uttarahalli") ||
-          slug.includes("hosa-road") ||
-          slug.includes("chandapura") ||
-          slug.includes("attibele") ||
-          slug.includes("jigani") ||
-          slug.includes("dommasandra") ||
-          slug.includes("carmelaram") ||
-          slug.includes("somapura") ||
-          slug.includes("hadosiddapura") ||
-          slug.includes("kadubeesanahalli") ||
-          slug.includes("devarabeesanahalli")
-        );
-      }
-      if (activeZone === "north") {
-        return (
-          slug.includes("hebbal") ||
-          slug.includes("yelahanka") ||
-          slug.includes("hennur") ||
-          slug.includes("thanisandra") ||
-          slug.includes("jakkur") ||
-          slug.includes("sahakar") ||
-          slug.includes("vidyaranyapura") ||
-          slug.includes("nagawara") ||
-          slug.includes("kothanur") ||
-          slug.includes("byrathi") ||
-          slug.includes("horamavu") ||
-          slug.includes("kalyan") ||
-          slug.includes("kammanahalli") ||
-          slug.includes("hrbr") ||
-          slug.includes("hbr") ||
-          slug.includes("rt-nagar") ||
-          slug.includes("sanjay-nagar") ||
-          slug.includes("sadashivanagar") ||
-          slug.includes("devanahalli") ||
-          slug.includes("bagalur") ||
-          slug.includes("doddaballapur") ||
-          slug.includes("rachenahalli") ||
-          slug.includes("babusapalya") ||
-          slug.includes("kasturi-nagar")
+          slug.includes("omr") ||
+          slug.includes("velachery") ||
+          slug.includes("adyar") ||
+          slug.includes("besant-nagar") ||
+          slug.includes("thiruvanmiyur") ||
+          slug.includes("sholinganallur") ||
+          slug.includes("perungudi") ||
+          slug.includes("thoraipakkam") ||
+          slug.includes("karapakkam") ||
+          slug.includes("navalur") ||
+          slug.includes("siruseri") ||
+          slug.includes("kelambakkam") ||
+          slug.includes("padur") ||
+          slug.includes("semmancheri")
         );
       }
       if (activeZone === "west") {
         return (
-          slug.includes("malleshwaram") ||
-          slug.includes("rajajinagar") ||
-          slug.includes("vijayanagar") ||
-          slug.includes("kengeri") ||
-          slug.includes("rajarajeshwari") ||
-          slug.includes("nagarbhavi") ||
-          slug.includes("yeshwanthpur") ||
-          slug.includes("peenya") ||
-          slug.includes("jalahalli") ||
-          slug.includes("mathikere") ||
-          slug.includes("basaveshwaranagar") ||
-          slug.includes("chamarajpet") ||
-          slug.includes("mysore-road") ||
-          slug.includes("magadi-road") ||
-          slug.includes("nelamangala") ||
-          slug.includes("bidadi")
+          slug.includes("porur") ||
+          slug.includes("ramapuram") ||
+          slug.includes("manapakkam") ||
+          slug.includes("mugalivakkam") ||
+          slug.includes("iyyappanthangal") ||
+          slug.includes("kattupakkam") ||
+          slug.includes("mangadu") ||
+          slug.includes("poonamallee") ||
+          slug.includes("vanagaram") ||
+          slug.includes("maduravoyal") ||
+          slug.includes("koyambedu") ||
+          slug.includes("vadapalani") ||
+          slug.includes("virugambakkam") ||
+          slug.includes("saligramam") ||
+          slug.includes("valasaravakkam") ||
+          slug.includes("alwarthirunagar") ||
+          slug.includes("ambattur") ||
+          slug.includes("korattur") ||
+          slug.includes("padi") ||
+          slug.includes("nolambur") ||
+          slug.includes("mogappair") ||
+          slug.includes("kundrathur") ||
+          slug.includes("thirumazhisai")
         );
       }
-      if (activeZone === "central") {
+      if (activeZone === "gst-suburbs") {
         return (
-          slug.includes("mg-road") ||
-          slug.includes("brigade") ||
-          slug.includes("indiranagar") ||
-          slug.includes("domlur") ||
-          slug.includes("cv-raman") ||
-          slug.includes("ulsoor") ||
-          slug.includes("frazer") ||
-          slug.includes("richmond") ||
-          slug.includes("shanti-nagar") ||
-          slug.includes("wilson") ||
-          slug.includes("vasanth") ||
-          slug.includes("seshadripuram") ||
-          slug.includes("majestic") ||
-          slug.includes("basavanagudi") ||
-          slug.includes("austin-town") ||
-          slug.includes("langford-town") ||
-          slug.includes("neelasandra") ||
-          slug.includes("cooke-town") ||
-          slug.includes("benson-town") ||
-          slug.includes("cox-town")
+          slug.includes("tambaram") ||
+          slug.includes("chromepet") ||
+          slug.includes("pallavaram") ||
+          slug.includes("sanatorium") ||
+          slug.includes("hastinapuram") ||
+          slug.includes("chitlapakkam") ||
+          slug.includes("selaiyur") ||
+          slug.includes("sembakkam") ||
+          slug.includes("medavakkam") ||
+          slug.includes("madipakkam") ||
+          slug.includes("pallikaranai") ||
+          slug.includes("perumbakkam") ||
+          slug.includes("keelkattalai") ||
+          slug.includes("kovilambakkam") ||
+          slug.includes("nanmangalam") ||
+          slug.includes("sithalapakkam") ||
+          slug.includes("pammal") ||
+          slug.includes("anakaputhur") ||
+          slug.includes("guduvanchery") ||
+          slug.includes("urapakkam") ||
+          slug.includes("vandalur") ||
+          slug.includes("chengalpattu") ||
+          slug.includes("maraimalai-nagar") ||
+          slug.includes("kattankulathur") ||
+          slug.includes("singaperumal-koil") ||
+          slug.includes("mahindra-world-city")
+        );
+      }
+      if (activeZone === "ecr") {
+        return (
+          slug.includes("palavakkam") ||
+          slug.includes("kottivakkam") ||
+          slug.includes("neelankarai") ||
+          slug.includes("injambakkam") ||
+          slug.includes("akkarai") ||
+          slug.includes("kovalam") ||
+          slug.includes("mrc-nagar")
+        );
+      }
+      if (activeZone === "north") {
+        return (
+          slug.includes("kolathur") ||
+          slug.includes("retteri") ||
+          slug.includes("villivakkam") ||
+          slug.includes("perambur") ||
+          slug.includes("madhavaram") ||
+          slug.includes("red-hills") ||
+          slug.includes("avadi") ||
+          slug.includes("thirumullaivoyal") ||
+          slug.includes("pattabiram") ||
+          slug.includes("royapuram") ||
+          slug.includes("washermanpet") ||
+          slug.includes("george-town") ||
+          slug.includes("sowcarpet") ||
+          slug.includes("tondiarpet") ||
+          slug.includes("thiruvottiyur") ||
+          slug.includes("wimco-nagar") ||
+          slug.includes("manali") ||
+          slug.includes("ennoore")
         );
       }
       return true;
@@ -196,7 +203,7 @@ export default function AreasClient() {
             <span>Home</span>
           </Link>
           <span>/</span>
-          <span className="text-[#A61E22]">Bangalore Service Areas</span>
+          <span className="text-[#A61E22]">Chennai Service Areas</span>
         </nav>
 
         {/* Page Hero Header */}
@@ -206,10 +213,10 @@ export default function AreasClient() {
             <span>100% Citywide Doorstep Coverage</span>
           </div>
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black text-slate-900 tracking-tight mb-4">
-            Safety Nets & Invisible Grills Across Bangalore
+            Safety Nets & Invisible Grills Across Chennai
           </h1>
           <p className="text-sm sm:text-base text-slate-600 leading-relaxed">
-            Fast same-day inspection and professional installation of balcony safety nets, SS316 invisible grills, and ceiling cloth drying hangers across all 110+ Bangalore neighborhoods.
+            Fast same-day inspection and professional installation of balcony safety nets, marine-grade SS316 invisible grills, and ceiling cloth drying hangers across all 120+ Chennai neighborhoods.
           </p>
         </div>
 
@@ -236,7 +243,7 @@ export default function AreasClient() {
             <Search className="w-5 h-5 text-slate-400 absolute left-4 top-1/2 -translate-y-1/2" />
             <input
               type="text"
-              placeholder="Search by neighborhood, IT park, or landmark..."
+              placeholder="Search by neighborhood, IT corridor, or landmark..."
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               className="w-full pl-12 pr-4 py-3.5 rounded-2xl bg-white border border-slate-200 text-sm focus:outline-hidden focus:ring-2 focus:ring-[#D4AF37] focus:border-transparent shadow-xs transition-all"
@@ -314,9 +321,9 @@ export default function AreasClient() {
             {filteredAreas.length === 0 && (
               <div className="bg-white rounded-3xl p-12 text-center border border-slate-200">
                 <Building2 className="w-12 h-12 text-slate-300 mx-auto mb-3" />
-                <h3 className="text-base font-bold text-slate-900 mb-1">No matching Bangalore areas found</h3>
+                <h3 className="text-base font-bold text-slate-900 mb-1">No matching Chennai areas found</h3>
                 <p className="text-xs text-slate-500 mb-4">
-                  We cover all surrounding Bangalore localities. Call us directly for immediate doorstep service.
+                  We cover all surrounding Chennai localities. Call us directly for immediate doorstep service.
                 </p>
                 <a
                   href="tel:+917981910891"
@@ -333,9 +340,9 @@ export default function AreasClient() {
           <div className="lg:col-span-4 space-y-6">
             <div className="bg-white rounded-3xl p-6 border border-slate-200 shadow-sm">
               <h3 className="text-sm font-bold text-slate-900 uppercase tracking-wider mb-4">
-                Bangalore Service Coverage Map
+                Chennai Service Coverage Map
               </h3>
-              <MapFrame areaName="Bangalore, Karnataka" />
+              <MapFrame areaName="Chennai, Tamil Nadu" />
             </div>
 
             <div className="bg-[#A61E22] text-white rounded-3xl p-6 border border-[#8E1A1E] shadow-lg">
@@ -344,7 +351,7 @@ export default function AreasClient() {
               </span>
               <h3 className="text-lg font-black mb-2">Can&apos;t Find Your Exact Layout?</h3>
               <p className="text-xs text-slate-200 leading-relaxed mb-4">
-                We service all high-rises, gated villa societies, and residential townships across greater Bangalore. Call for immediate dispatch of our inspection team.
+                We service all high-rises, gated villa societies, and residential townships across greater Chennai. Call for immediate dispatch of our inspection team.
               </p>
               <div className="space-y-2">
                 <a
@@ -355,7 +362,7 @@ export default function AreasClient() {
                   <span>Call 79819 10891</span>
                 </a>
                 <a
-                  href="https://wa.me/917981910891?text=Hi%20CSK%20Safety%20Nets,%20I%20need%20a%20free%20inspection%20in%20Bangalore."
+                  href="https://wa.me/917981910891?text=Hi%20CSK%20Safety%20Nets,%20I%20need%20a%20free%20inspection%20in%20Chennai."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-full flex items-center justify-center gap-2 bg-[#25D366] hover:bg-emerald-600 text-white font-bold py-3 rounded-xl transition-colors text-xs shadow-md"

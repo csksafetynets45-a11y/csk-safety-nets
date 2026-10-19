@@ -8,21 +8,21 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Ceiling Cloth Hangers | CSK Safety Nets & Invisible Grills",
   description:
-    "Rust-proof ceiling-mounted pulley cloth drying hangers installed in balconies and utility spaces by CSK Safety Nets & Invisible Grills across Bangalore: Whitefield, Koramangala, Indiranagar, HSR Layout, Electronic City, Marathahalli, and Sarjapur Road.",
+    "Rust-proof ceiling-mounted pulley cloth drying hangers installed in balconies and utility spaces by CSK Safety Nets & Invisible Grills across Chennai: Anna Nagar, T. Nagar, Velachery, OMR, Porur, Adyar, and Tambaram.",
   alternates: {
     canonical: "/services/cloth-hangers",
   },
   openGraph: {
     title: "Ceiling Cloth Hangers | CSK Safety Nets & Invisible Grills",
     description:
-      "Rust-proof ceiling-mounted pulley cloth drying hangers installed in balconies and utility spaces by CSK Safety Nets & Invisible Grills across Bangalore: Whitefield, Koramangala, Indiranagar, HSR Layout, Electronic City, Marathahalli, and Sarjapur Road.",
+      "Rust-proof ceiling-mounted pulley cloth drying hangers installed in balconies and utility spaces by CSK Safety Nets & Invisible Grills across Chennai: Anna Nagar, T. Nagar, Velachery, OMR, Porur, Adyar, and Tambaram.",
     url: "https://csksafetynets.in/services/cloth-hangers",
     images: [
       {
         url: "/images/og-image.webp",
         width: 1200,
         height: 630,
-        alt: "Ceiling Cloth Hangers Bangalore, Karnataka - CSK Safety Nets & Invisible Grills",
+        alt: "Ceiling Cloth Hangers Chennai, Tamil Nadu - CSK Safety Nets & Invisible Grills",
       },
     ],
   },
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Ceiling Cloth Hangers | CSK Safety Nets & Invisible Grills",
     description:
-      "Space-saving ceiling cloth hangers installed across Bangalore serving Whitefield, Koramangala, Indiranagar, HSR Layout, Electronic City, Marathahalli, and Sarjapur Road.",
+      "Space-saving ceiling cloth hangers installed across Chennai serving Anna Nagar, T. Nagar, Velachery, OMR, Porur, Adyar, and Tambaram.",
     images: ["/images/og-image.webp"],
   },
 };
@@ -95,7 +95,7 @@ export default function ClothHangersCategoryPage() {
             Cloth Hangers (2 Services)
           </h1>
           <p className="text-slate-500 text-sm sm:text-base leading-relaxed">
-            Optimize your balcony floor space using our space-saving cloth hangers. Choose from ceiling-mounted pulley hangers (smooth raising/lowering cords) or wall-mounted folding accordion grids. Heavy-duty, rustproof stainless steel pipes engineered for humid Bangalore, Karnataka weather.
+            Optimize your balcony floor space using our space-saving cloth hangers. Choose from ceiling-mounted pulley hangers (smooth raising/lowering cords) or wall-mounted folding accordion grids. Heavy-duty, rustproof stainless steel pipes engineered for humid Chennai, Tamil Nadu weather.
           </p>
         </div>
 
@@ -109,7 +109,7 @@ export default function ClothHangersCategoryPage() {
               <div className="relative h-64 w-full bg-slate-200 overflow-hidden">
                 <Image
                   src={service.image}
-                  alt={`CSK Safety Nets & Invisible Grills - ${service.name} Installation Bangalore, Karnataka`}
+                  alt={`CSK Safety Nets & Invisible Grills - ${service.name} Installation Chennai, Tamil Nadu`}
                   fill
                   sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                   className="object-cover transition-transform duration-500 group-hover:scale-105"

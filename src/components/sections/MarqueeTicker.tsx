@@ -7,7 +7,7 @@ export default function MarqueeTicker() {
     { icon: Shield, text: "Certified High-Rise Safety Netting", highlight: "140kg+ Load Tested" },
     { icon: Award, text: "Marine-Grade SS316 Invisible Grills", highlight: "100% Rust-Proof" },
     { icon: Clock, text: "Doorstep Laser Measurements", highlight: "100% Free Consultation" },
-    { icon: Wrench, text: "Rapid Turnaround in Bangalore", highlight: "Same-Day Service" },
+    { icon: Wrench, text: "Rapid Turnaround in Chennai", highlight: "Same-Day Service" },
     { icon: PhoneCall, text: "Direct Helpline & WhatsApp", highlight: "+91 79819 10891" },
     { icon: CheckCircle, text: "Official Warranty Assurance", highlight: "5-Year Replacement Card" },
   ];

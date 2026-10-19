@@ -34,8 +34,8 @@ export async function generateMetadata({ params }: PageProps) {
     };
   }
 
-  const title = `Safety Nets & Invisible Grills in ${areaDetail.name}, Bangalore | CSK`;
-  const description = `CSK Safety Nets & Invisible Grills provides professional balcony safety nets, pigeon netting, and SS316 invisible grills in ${areaDetail.name}, Bangalore, Karnataka. Free doorstep inspection across ${areaDetail.localities.slice(0, 5).join(", ")}. Call +91 79819 10891.`;
+  const title = `Safety Nets & Invisible Grills in ${areaDetail.name}, Chennai | CSK`;
+  const description = `CSK Safety Nets & Invisible Grills provides professional balcony safety nets, pigeon netting, and SS316 invisible grills in ${areaDetail.name}, Chennai, Tamil Nadu. Free doorstep inspection across ${areaDetail.localities.slice(0, 5).join(", ")}. Call +91 79819 10891.`;
 
   return {
     title,
@@ -94,7 +94,7 @@ export default async function AreaDetailPage({ params }: PageProps) {
   const localFAQs = [
     {
       question: `Do you charge for site inspection visits in ${areaDetail.name}?`,
-      answer: `No. CSK Safety Nets & Invisible Grills offers 100% free site visits, catalog displays, and measurements in ${areaDetail.name} and surrounding Bangalore, Karnataka locations without any payment commitments.`,
+      answer: `No. CSK Safety Nets & Invisible Grills offers 100% free site visits, catalog displays, and measurements in ${areaDetail.name} and surrounding Chennai, Tamil Nadu locations without any payment commitments.`,
     },
     {
       question: `What is the delivery time for safety nets in ${areaDetail.name}?`,
@@ -102,7 +102,7 @@ export default async function AreaDetailPage({ params }: PageProps) {
     },
     {
       question: `Can CSK Safety Nets & Invisible Grills invisible grills handle the weather in ${areaDetail.name}?`,
-      answer: `Yes. Our invisible grills utilize marine-grade SS316 stainless steel wires wrapped in a clear nylon protective casing. They are highly rustproof and resist Bangalore's summer heat, gusty seasonal monsoon winds, and heavy downpours.`,
+      answer: `Yes. Our invisible grills utilize marine-grade SS316 stainless steel wires wrapped in a clear nylon protective casing. They are highly rustproof and resist Chennai's coastal humidity, sea breeze, and heavy monsoon rains.`,
     },
     {
       question: `Are your bird control spikes and nets safe and humane?`,
@@ -157,7 +157,7 @@ export default async function AreaDetailPage({ params }: PageProps) {
           <div className="max-w-3xl space-y-5">
             <div className="inline-flex items-center gap-2 px-3 py-1 bg-white/10 backdrop-blur-md rounded-full text-xs font-bold text-amber-200 border border-white/15">
               <MapPin className="w-3.5 h-3.5 text-[#D4AF37]" />
-              <span>Doorstep Service across {areaDetail.name}, Bangalore</span>
+              <span>Doorstep Service across {areaDetail.name}, Chennai</span>
             </div>
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight leading-tight">
               Safety Nets &amp; Invisible Grills in <span className="text-[#D4AF37]">{areaDetail.name}</span>
@@ -287,7 +287,7 @@ export default async function AreaDetailPage({ params }: PageProps) {
             {/* Nearby Areas */}
             <div className="bg-white rounded-3xl p-6 border border-slate-200 shadow-xs">
               <h3 className="text-base font-bold text-slate-900 border-b border-slate-100 pb-3 mb-4">
-                Other Service Hubs in Bangalore
+                Other Service Hubs in Chennai
               </h3>
               <div className="space-y-2">
                 {nearbyAreas.map((city) => (

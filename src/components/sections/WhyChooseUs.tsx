@@ -15,7 +15,7 @@ export default function WhyChooseUs() {
       icon: Clock,
       badge: "Fast Turnaround",
       title: "Quick Doorstep Inspection & Same-Week Fitting",
-      desc: "We understand safety can't wait. Our mobile technical rigging teams across Bangalore provide fast same-day or 24-hour laser measurement visits, followed by clean, professional installation within the same week.",
+      desc: "We understand safety can't wait. Our mobile technical rigging teams across Chennai provide fast same-day or 24-hour laser measurement visits, followed by clean, professional installation within the same week.",
     },
     {
       icon: HeartHandshake,
@@ -55,7 +55,7 @@ export default function WhyChooseUs() {
             Protecting What Matters Most, Without Compromise
           </h2>
           <p className="mt-4 text-sm sm:text-base text-slate-600 leading-relaxed font-normal">
-            Built on four core pillars: superior metallurgical quality, lightning-fast turnaround, unwavering dedication to child and pet security, and rock-solid warranty backing across Bangalore.
+            Built on four core pillars: superior metallurgical quality, lightning-fast turnaround, unwavering dedication to child and pet security, and rock-solid warranty backing across Chennai.
           </p>
         </div>
 

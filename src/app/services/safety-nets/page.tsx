@@ -8,21 +8,21 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Balcony & Safety Nets | CSK Safety Nets & Invisible Grills",
   description:
-    "High-tensile UV-treated balcony safety nets, pigeon nets, child protection nets, and pet safety nets installed by CSK Safety Nets & Invisible Grills across Bangalore: Whitefield, Koramangala, Indiranagar, HSR Layout, Electronic City, Marathahalli, and Sarjapur Road.",
+    "High-tensile UV-treated balcony safety nets, pigeon nets, child protection nets, and pet safety nets installed by CSK Safety Nets & Invisible Grills across Chennai: Anna Nagar, T. Nagar, Velachery, OMR, Porur, Adyar, and Tambaram.",
   alternates: {
     canonical: "/services/safety-nets",
   },
   openGraph: {
     title: "Balcony & Safety Nets | CSK Safety Nets & Invisible Grills",
     description:
-      "High-tensile UV-treated balcony safety nets, pigeon nets, child protection nets, and pet safety nets installed by CSK Safety Nets & Invisible Grills across Bangalore: Whitefield, Koramangala, Indiranagar, HSR Layout, Electronic City, Marathahalli, and Sarjapur Road.",
+      "High-tensile UV-treated balcony safety nets, pigeon nets, child protection nets, and pet safety nets installed by CSK Safety Nets & Invisible Grills across Chennai: Anna Nagar, T. Nagar, Velachery, OMR, Porur, Adyar, and Tambaram.",
     url: "https://csksafetynets.in/services/safety-nets",
     images: [
       {
         url: "/images/og-image.webp",
         width: 1200,
         height: 630,
-        alt: "Safety Nets Bangalore, Karnataka - CSK Safety Nets & Invisible Grills",
+        alt: "Safety Nets Chennai, Tamil Nadu - CSK Safety Nets & Invisible Grills",
       },
     ],
   },
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Balcony & Safety Nets | CSK Safety Nets & Invisible Grills",
     description:
-      "High-tensile safety nets installed across Bangalore serving Whitefield, Koramangala, Indiranagar, HSR Layout, Electronic City, Marathahalli, and Sarjapur Road.",
+      "High-tensile safety nets installed across Chennai serving Anna Nagar, T. Nagar, Velachery, OMR, Porur, Adyar, and Tambaram.",
     images: ["/images/og-image.webp"],
   },
 };
@@ -95,7 +95,7 @@ export default function SafetyNetsCategoryPage() {
             Safety Nets (9 Services)
           </h1>
           <p className="text-slate-500 text-sm sm:text-base leading-relaxed">
-            Protect your family, pets, and structures with high-density copolymer netting. Designed for Bangalore, Karnataka&apos;s weather and custom anchored to meet absolute safety benchmarks.
+            Protect your family, pets, and structures with high-density copolymer netting. Designed for Chennai, Tamil Nadu&apos;s weather and custom anchored to meet absolute safety benchmarks.
           </p>
         </div>
 
@@ -109,7 +109,7 @@ export default function SafetyNetsCategoryPage() {
               <div className="relative h-64 w-full bg-slate-200 overflow-hidden">
                 <Image
                   src={service.image}
-                  alt={`CSK Safety Nets & Invisible Grills - ${service.name} Installation Bangalore, Karnataka`}
+                  alt={`CSK Safety Nets & Invisible Grills - ${service.name} Installation Chennai, Tamil Nadu`}
                   fill
                   sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                   className="object-cover transition-transform duration-500 group-hover:scale-105"

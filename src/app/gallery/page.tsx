@@ -7,14 +7,14 @@ import { generateBreadcrumbSchema } from "@/utils/schema";
 export const metadata: Metadata = {
   title: "Photo Gallery | CSK Safety Nets & Invisible Grills",
   description:
-    "Browse photos of safety nets, invisible grills, anti-bird spikes, and ceiling cloth hangers installed by CSK Safety Nets & Invisible Grills across Bangalore: Whitefield, Koramangala, Indiranagar, HSR Layout, Electronic City, Marathahalli, and Sarjapur Road.",
+    "Browse photos of safety nets, invisible grills, anti-bird spikes, and ceiling cloth hangers installed by CSK Safety Nets & Invisible Grills across Chennai: Anna Nagar, T. Nagar, Velachery, OMR, Porur, Adyar, and Tambaram.",
   alternates: {
     canonical: "/gallery",
   },
   openGraph: {
     title: "Photo Gallery | CSK Safety Nets & Invisible Grills",
     description:
-      "Browse photos of safety nets, invisible grills, anti-bird spikes, and ceiling cloth hangers installed by CSK Safety Nets & Invisible Grills across Bangalore: Whitefield, Koramangala, Indiranagar, HSR Layout, Electronic City, Marathahalli, and Sarjapur Road.",
+      "Browse photos of safety nets, invisible grills, anti-bird spikes, and ceiling cloth hangers installed by CSK Safety Nets & Invisible Grills across Chennai: Anna Nagar, T. Nagar, Velachery, OMR, Porur, Adyar, and Tambaram.",
     url: "https://csksafetynets.in/gallery",
     images: [
       {
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Photo Gallery | CSK Safety Nets & Invisible Grills",
     description:
-      "Browse photos of safety nets, invisible grills, anti-bird spikes, and ceiling cloth hangers installed by CSK Safety Nets & Invisible Grills across Bangalore serving Whitefield, Koramangala, Indiranagar, HSR Layout, Electronic City, Marathahalli, and Sarjapur Road.",
+      "Browse photos of safety nets, invisible grills, anti-bird spikes, and ceiling cloth hangers installed by CSK Safety Nets & Invisible Grills across Chennai serving Anna Nagar, T. Nagar, Velachery, OMR, Porur, Adyar, and Tambaram.",
     images: ["/images/og-image.webp"],
   },
 };
@@ -45,7 +45,7 @@ export default function GalleryPage() {
     "@type": "CollectionPage",
     "name": "Photo Gallery | CSK Safety Nets & Invisible Grills",
     "url": "https://csksafetynets.in/gallery",
-    "description": "Photo archives of completed netting and invisible grill setups by CSK Safety Nets & Invisible Grills in Bangalore across Whitefield, Koramangala, Indiranagar, HSR Layout, Electronic City, Marathahalli, and Sarjapur Road.",
+    "description": "Photo archives of completed netting and invisible grill setups by CSK Safety Nets & Invisible Grills in Chennai across Anna Nagar, T. Nagar, Velachery, OMR, Porur, Adyar, and Tambaram.",
   };
 
   return (

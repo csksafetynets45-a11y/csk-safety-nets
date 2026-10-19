@@ -25,7 +25,7 @@ export async function generateMetadata({ params }: PageProps) {
   }
 
   const title = `${post.title} | CSK Safety Nets & Invisible Grills`;
-  const description = `${post.summary} - Expert insights by CSK Safety Nets & Invisible Grills across Bangalore.`;
+  const description = `${post.summary} - Expert insights by CSK Safety Nets & Invisible Grills across Chennai.`;
 
   return {
     title,

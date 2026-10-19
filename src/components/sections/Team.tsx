@@ -75,7 +75,7 @@ export default function Team() {
               {/* Technician Image */}
               <Image
                 src={item.image}
-                alt={`CSK Safety Nets & Invisible Grills - ${item.caption} in Bangalore`}
+                alt={`CSK Safety Nets & Invisible Grills - ${item.caption} in Chennai`}
                 fill
                 sizes="(max-width: 768px) 100vw, 33vw"
                 className="object-cover transition-transform duration-500 group-hover:scale-105"

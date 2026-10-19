@@ -8,14 +8,14 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Our Services | CSK Safety Nets & Invisible Grills",
   description:
-    "Explore 18+ safety net solutions, invisible grills, and ceiling cloth hangers by CSK Safety Nets & Invisible Grills across Bangalore: Whitefield, Koramangala, Indiranagar, HSR Layout, Electronic City, Marathahalli, and Sarjapur Road.",
+    "Explore 18+ safety net solutions, invisible grills, and ceiling cloth hangers by CSK Safety Nets & Invisible Grills across Chennai: Anna Nagar, T. Nagar, Velachery, OMR, Porur, Adyar, and Tambaram.",
   alternates: {
     canonical: "/services",
   },
   openGraph: {
     title: "Our Services | CSK Safety Nets & Invisible Grills",
     description:
-      "Explore 18+ safety net solutions, invisible grills, and ceiling cloth hangers by CSK Safety Nets & Invisible Grills across Bangalore: Whitefield, Koramangala, Indiranagar, HSR Layout, Electronic City, Marathahalli, and Sarjapur Road.",
+      "Explore 18+ safety net solutions, invisible grills, and ceiling cloth hangers by CSK Safety Nets & Invisible Grills across Chennai: Anna Nagar, T. Nagar, Velachery, OMR, Porur, Adyar, and Tambaram.",
     url: "https://csksafetynets.in/services",
     images: [
       {
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Our Services | CSK Safety Nets & Invisible Grills",
     description:
-      "Explore 18+ safety net solutions, invisible grills, and ceiling cloth hangers by CSK Safety Nets & Invisible Grills across Bangalore serving Whitefield, Koramangala, Indiranagar, HSR Layout, Electronic City, Marathahalli, and Sarjapur Road.",
+      "Explore 18+ safety net solutions, invisible grills, and ceiling cloth hangers by CSK Safety Nets & Invisible Grills across Chennai serving Anna Nagar, T. Nagar, Velachery, OMR, Porur, Adyar, and Tambaram.",
     images: ["/images/og-image.webp"],
   },
 };
@@ -107,7 +107,7 @@ export default function ServicesPage() {
             Our Installation Services
           </h1>
           <p className="text-slate-500 text-sm sm:text-base leading-relaxed">
-            Choose from our 18 certified safety netting, structural invisible grills, and drying hanger services in Bangalore. Handcrafted to protect your space cleanly.
+            Choose from our 18 certified safety netting, structural invisible grills, and drying hanger services in Chennai. Handcrafted to protect your space cleanly.
           </p>
         </div>
 
@@ -136,7 +136,7 @@ export default function ServicesPage() {
                     <div className="relative h-64 w-full bg-slate-200 overflow-hidden">
                       <Image
                         src={service.image}
-                        alt={`CSK Safety Nets & Invisible Grills - ${service.name} Installation Bangalore, Karnataka`}
+                        alt={`CSK Safety Nets & Invisible Grills - ${service.name} Installation Chennai, Tamil Nadu`}
                         fill
                         sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                         className="object-cover transition-transform duration-500 group-hover:scale-105"

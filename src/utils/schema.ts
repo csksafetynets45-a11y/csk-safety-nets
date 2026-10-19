@@ -3,22 +3,31 @@ export interface SchemaBreadcrumb {
   item: string;
 }
 
-// CSK's PRIMARY area list — leads with West/Old-Bangalore areas, deliberately different order from CSK
-export const CITIES_BANGALORE = [
-  "Sarjapur Road",
-  "Bellandur",
-  "Hennur",
-  "Rajajinagar",
-  "Malleshwaram",
-  "Basavanagudi",
-  "Vijayanagar",
-  "Banashankari",
-  "CV Raman Nagar",
-  "Kalyan Nagar",
-  "Horamavu",
-  "Whitefield",
-  "Koramangala",
+// CSK's PRIMARY area list — Chennai high-traffic residential and commercial zones
+export const CITIES_CHENNAI = [
+  "Anna Nagar",
+  "T. Nagar",
+  "Velachery",
+  "OMR",
+  "Adyar",
+  "Besant Nagar",
+  "Thiruvanmiyur",
+  "Porur",
+  "Tambaram",
+  "Chromepet",
+  "Medavakkam",
+  "Perungudi",
+  "Sholinganallur",
+  "Mylapore",
+  "Kilpauk",
+  "Ambattur",
+  "Mogappair",
+  "Guindy",
+  "Vadapalani",
+  "Nungambakkam",
 ];
+
+export const CITIES_BANGALORE = CITIES_CHENNAI; // Backwards compatibility alias
 
 export const ALL_18_SERVICES = [
   "Balcony Safety Nets",
@@ -55,7 +64,7 @@ export function generateOrganizationSchema() {
         "telephone": "+91 79819 10891",
         "contactType": "customer service",
         "areaServed": "IN",
-        "availableLanguage": ["English", "Telugu", "Kannada", "Hindi"],
+        "availableLanguage": ["Tamil", "English", "Telugu", "Hindi"],
       },
     ],
   };
@@ -64,7 +73,7 @@ export function generateOrganizationSchema() {
 export function generateLocalBusinessSchema(areaName?: string) {
   const citiesServed = areaName
     ? [areaName]
-    : CITIES_BANGALORE;
+    : CITIES_CHENNAI;
 
   return {
     "@context": "https://schema.org",
@@ -79,20 +88,20 @@ export function generateLocalBusinessSchema(areaName?: string) {
     "priceRange": "₹₹",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "Bangalore, Karnataka",
-      "addressLocality": "Bangalore",
-      "addressRegion": "Karnataka",
-      "postalCode": "560001",
+      "streetAddress": "Chennai, Tamil Nadu",
+      "addressLocality": "Chennai",
+      "addressRegion": "Tamil Nadu",
+      "postalCode": "600001",
       "addressCountry": "IN",
     },
     "geo": {
       "@type": "GeoCoordinates",
-      "latitude": 12.9716,
-      "longitude": 77.5946,
+      "latitude": 13.0827,
+      "longitude": 80.2707,
     },
     "areaServed": citiesServed.map((city) => ({
       "@type": "City",
-      "name": `${city}, Bangalore, Karnataka`,
+      "name": `${city}, Chennai, Tamil Nadu`,
     })),
     "hasOfferCatalog": {
       "@type": "OfferCatalog",
@@ -134,8 +143,8 @@ export function generateServiceProductSchema(serviceName: string, serviceSlug: s
   return {
     "@context": "https://schema.org",
     "@type": "Product",
-    "name": `${serviceName} Installation in Bangalore`,
-    "description": `Premium ${serviceName.toLowerCase()} with certified installation and written warranty — by CSK Safety Nets & Invisible Grills, Bangalore, Karnataka.`,
+    "name": `${serviceName} Installation in Chennai`,
+    "description": `Premium ${serviceName.toLowerCase()} with certified installation and written warranty — by CSK Safety Nets & Invisible Grills, Chennai, Tamil Nadu.`,
     "brand": {
       "@type": "Brand",
       "name": "CSK Safety Nets & Invisible Grills",
@@ -190,7 +199,7 @@ export function generateServiceSchema(serviceName: string, categoryName?: string
     "@type": "Service",
     "serviceType": categoryName || serviceName,
     "name": serviceName,
-    "description": description || `${serviceName} in Bangalore, Karnataka — premium materials, fast installation, written warranty by CSK Safety Nets & Invisible Grills.`,
+    "description": description || `${serviceName} in Chennai, Tamil Nadu — premium materials, fast installation, written warranty by CSK Safety Nets & Invisible Grills.`,
     "provider": {
       "@type": ["HomeAndConstructionBusiness", "LocalBusiness"],
       "@id": "https://csksafetynets.in/#localbusiness",
@@ -200,16 +209,16 @@ export function generateServiceSchema(serviceName: string, categoryName?: string
       "url": "https://csksafetynets.in",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "Bangalore, Karnataka",
-        "addressLocality": "Bangalore",
-        "addressRegion": "Karnataka",
-        "postalCode": "560001",
+        "streetAddress": "Chennai, Tamil Nadu",
+        "addressLocality": "Chennai",
+        "addressRegion": "Tamil Nadu",
+        "postalCode": "600001",
         "addressCountry": "IN",
       },
     },
     "areaServed": {
       "@type": "City",
-      "name": "Bangalore, Karnataka",
+      "name": "Chennai, Tamil Nadu",
     },
   };
 }
@@ -219,7 +228,7 @@ export function generateServiceAreaSchema(serviceName: string, areaName: string)
     "@context": "https://schema.org",
     "@type": "Service",
     "serviceType": serviceName,
-    "name": `${serviceName} in ${areaName}, Bangalore`,
+    "name": `${serviceName} in ${areaName}, Chennai`,
     "provider": {
       "@type": ["HomeAndConstructionBusiness", "LocalBusiness"],
       "@id": "https://csksafetynets.in/#localbusiness",
@@ -229,16 +238,16 @@ export function generateServiceAreaSchema(serviceName: string, areaName: string)
       "url": "https://csksafetynets.in",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "Bangalore, Karnataka",
-        "addressLocality": "Bangalore",
-        "addressRegion": "Karnataka",
-        "postalCode": "560001",
+        "streetAddress": "Chennai, Tamil Nadu",
+        "addressLocality": "Chennai",
+        "addressRegion": "Tamil Nadu",
+        "postalCode": "600001",
         "addressCountry": "IN",
       },
     },
     "areaServed": {
       "@type": "City",
-      "name": `${areaName}, Bangalore, Karnataka`,
+      "name": `${areaName}, Chennai, Tamil Nadu`,
     },
   };
 }
@@ -272,10 +281,10 @@ export function generateAggregateRatingSchema() {
     "priceRange": "₹₹",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "Bangalore, Karnataka",
-      "addressLocality": "Bangalore",
-      "addressRegion": "Karnataka",
-      "postalCode": "560001",
+      "streetAddress": "Chennai, Tamil Nadu",
+      "addressLocality": "Chennai",
+      "addressRegion": "Tamil Nadu",
+      "postalCode": "600001",
       "addressCountry": "IN",
     },
   };
@@ -315,7 +324,7 @@ export function generateArticleSchema(
         "name": "CSK Safety Nets & Invisible Grills",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://csksafetynets.in/images/logo/csk-logo-PLACEHOLDER.svg",
+          "url": "https://csksafetynets.in/images/logo/csk-safetynets-logo.webp",
         },
       },
       "image": article.image || "https://csksafetynets.in/images/og-image.webp",
@@ -339,7 +348,7 @@ export function generateArticleSchema(
       "name": "CSK Safety Nets & Invisible Grills",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://csksafetynets.in/images/logo/csk-logo-PLACEHOLDER.svg",
+        "url": "https://csksafetynets.in/images/logo/csk-safetynets-logo.webp",
       },
     },
     "image": image || "https://csksafetynets.in/images/og-image.webp",

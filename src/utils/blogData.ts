@@ -23,21 +23,21 @@ export interface BlogArticle {
 }
 
 export const blogData: Record<string, BlogArticle> = {
-  "invisible-grill-cost-bangalore": {
-    slug: "invisible-grill-cost-bangalore",
-    title: "Invisible Grills Price Guide for Bangalore High-Rise Apartments (2026)",
+  "invisible-grill-cost-chennai": {
+    slug: "invisible-grill-cost-chennai",
+    title: "Invisible Grills Price Guide for Chennai High-Rise Apartments (2026)",
     publishedAt: "July 08, 2026",
     author: "CSK Safety Nets & Invisible Grills Engineering Team",
     readingTime: "5 min read",
     category: "invisible-grills",
     categoryLabel: "Invisible Grills",
     image: "/images/main-images/Balcony-Grills.jpg",
-    summary: "Thinking of upgrading your balcony with modern invisible wire grills in Bangalore? Discover how cable grades, anchor track metallurgy, and wire pitch impact cost and durability.",
-    introduction: "From Whitefield tech condominiums to luxury residences in Koramangala, Indiranagar, and Hebbal, high-rise homeowners are swapping heavy iron bars for sleek SS316 stainless invisible grills. Here is an honest breakdown of cost drivers and quality standards.",
+    summary: "Thinking of upgrading your balcony with modern invisible wire grills in Chennai? Discover how cable grades, anchor track metallurgy, and wire pitch impact cost and durability.",
+    introduction: "From OMR tech high-rises to luxury residences in Anna Nagar, Velachery, and Adyar, high-rise homeowners are swapping heavy iron bars for sleek SS316 stainless invisible grills. Here is an honest breakdown of cost drivers and quality standards.",
     contentBlocks: [
       {
         heading: "Metallurgy Matters: Why SS316 Marine Grade is Essential",
-        text: "The primary factor determining long-term grill performance is steel metallurgy. Marine-grade SS316 contains 2% molybdenum, making it completely impervious to outdoor oxidation, moisture, and monsoon rains in Bangalore. In contrast, cheaper SS201 or SS304 grades develop pitting rust over time.",
+        text: "The primary factor determining long-term grill performance is steel metallurgy. Marine-grade SS316 contains 2% molybdenum, making it completely impervious to outdoor oxidation, moisture, and monsoon rains in Chennai. In contrast, cheaper SS201 or SS304 grades develop pitting rust over time.",
       },
       {
         heading: "Cable Thickness and Safety Pitch Specifications",
@@ -51,7 +51,7 @@ export const blogData: Record<string, BlogArticle> = {
     faqs: [
       {
         question: "Why is marine SS316 steel recommended over standard stainless grades?",
-        answer: "SS316 contains molybdenum which provides superior resistance against atmospheric corrosion, pollution, and weathering throughout Bangalore's varied seasons.",
+        answer: "SS316 contains molybdenum which provides superior resistance against atmospheric corrosion, pollution, and weathering throughout Chennai's varied seasons.",
       },
       {
         question: "Can an intruder easily cut invisible grill wires with simple tools?",
@@ -64,18 +64,18 @@ export const blogData: Record<string, BlogArticle> = {
     ],
     relatedSlugs: ["balcony-safety-net-price-guide", "child-safety-for-apartments"],
     relatedServices: ["balcony-invisible-grills", "window-invisible-grills"],
-    relatedAreas: ["whitefield", "koramangala", "indiranagar"],
+    relatedAreas: ["omr", "anna-nagar", "velachery"],
   },
   "balcony-safety-net-price-guide": {
     slug: "balcony-safety-net-price-guide",
-    title: "Balcony Safety Netting: Materials, Anchoring & Price Overview in Bangalore",
+    title: "Balcony Safety Netting: Materials, Anchoring & Price Overview in Chennai",
     publishedAt: "July 05, 2026",
     author: "CSK Safety Nets & Invisible Grills Rigging Crew",
     readingTime: "4 min read",
     category: "safety-nets",
     categoryLabel: "Safety Nets",
     image: "/images/main-images/balcony-safetynets.webp",
-    summary: "A practical guide comparing virgin HDPE polymer netting and nylon meshes, concrete anchor integrity, and how to maximize safety for high-rise families in Bangalore.",
+    summary: "A practical guide comparing virgin HDPE polymer netting and nylon meshes, concrete anchor integrity, and how to maximize safety for high-rise families in Chennai.",
     introduction: "Safety nets provide an economical, highly dependable method to secure high-floor balconies against accidental falls. Understanding the difference between UV-stabilized virgin polymer and recycled twine ensures your installation lasts for years without fraying or sagging.",
     contentBlocks: [
       {
@@ -87,7 +87,7 @@ export const blogData: Record<string, BlogArticle> = {
         text: "The strength of a safety net relies on its anchor points. CSK Safety Nets & Invisible Grills uses high-tensile stainless steel expansion eyebolts anchored directly into structural concrete lintels, ensuring every anchor point withstands over 140kg of dynamic load.",
       },
       {
-        heading: "Free Doorstep Inspection Across Bangalore",
+        heading: "Free Doorstep Inspection Across Chennai",
         text: "We calculate pricing transparently based on measured perimeter area, twine gauge, and mounting complexity. Schedule a free home measurement with CSK Safety Nets & Invisible Grills to receive an honest written estimate with a 5-year replacement guarantee.",
       },
     ],
@@ -105,20 +105,20 @@ export const blogData: Record<string, BlogArticle> = {
         answer: "While anti-pigeon nets keep birds out, dedicated child safety nets use thicker 1.5mm to 2.5mm cords with tighter anchor spacing to withstand heavy dynamic fall loads.",
       },
     ],
-    relatedSlugs: ["invisible-grill-cost-bangalore", "child-safety-for-apartments"],
+    relatedSlugs: ["invisible-grill-cost-chennai", "child-safety-for-apartments"],
     relatedServices: ["balcony-safety-nets", "children-safety-nets", "pigeon-safety-nets"],
-    relatedAreas: ["hsr-layout", "electronic-city", "marathahalli"],
+    relatedAreas: ["porur", "tambaram", "medavakkam"],
   },
   "child-safety-for-apartments": {
     slug: "child-safety-for-apartments",
-    title: "Childproofing High-Rise Balconies & Windows in Bangalore: Expert Guide",
+    title: "Childproofing High-Rise Balconies & Windows in Chennai: Expert Guide",
     publishedAt: "July 01, 2026",
     author: "CSK Safety Nets & Invisible Grills Child Safety Specialists",
     readingTime: "6 min read",
     category: "safety-nets",
     categoryLabel: "Child Safety",
     image: "/images/services/child.webp",
-    summary: "Critical childproofing strategies for high-rise apartment living in Bangalore. How to eliminate balcony railing hazards, window fall risks, and open staircase voids.",
+    summary: "Critical childproofing strategies for high-rise apartment living in Chennai. How to eliminate balcony railing hazards, window fall risks, and open staircase voids.",
     introduction: "High-rise apartment living offers wonderful skyline views and refreshing cross-breeze, but open horizontal railing intervals and low window sills present serious dangers for curious toddlers. Here is how professional safety netting and invisible grills create an accident-free home.",
     contentBlocks: [
       {
@@ -148,10 +148,13 @@ export const blogData: Record<string, BlogArticle> = {
         answer: "Yes, our custom extruded aluminium tracks can be mounted inside window reveals or along exterior lintels, providing total fall protection without hindering window operation.",
       },
     ],
-    relatedSlugs: ["invisible-grill-cost-bangalore", "balcony-safety-net-price-guide"],
+    relatedSlugs: ["invisible-grill-cost-chennai", "balcony-safety-net-price-guide"],
     relatedServices: ["children-safety-nets", "children-invisible-grills", "balcony-safety-nets"],
-    relatedAreas: ["whitefield", "jayanagar", "jp-nagar", "yelahanka"],
+    relatedAreas: ["omr", "adyar", "t-nagar", "sholinganallur"],
   },
 };
 
-export const blogList = Object.values(blogData);
+// Backward-compatibility alias
+blogData["invisible-grill-cost-bangalore"] = blogData["invisible-grill-cost-chennai"];
+
+export const blogList = Array.from(new Set(Object.values(blogData)));

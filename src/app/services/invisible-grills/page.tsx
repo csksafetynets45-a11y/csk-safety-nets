@@ -8,21 +8,21 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Invisible Grills | CSK Safety Nets & Invisible Grills",
   description:
-    "Stainless steel 316 marine-grade invisible grills for balconies, windows, and staircases by CSK Safety Nets & Invisible Grills across Bangalore: Whitefield, Koramangala, Indiranagar, HSR Layout, Electronic City, Marathahalli, and Sarjapur Road.",
+    "Stainless steel 316 marine-grade invisible grills for balconies, windows, and staircases by CSK Safety Nets & Invisible Grills across Chennai: Anna Nagar, T. Nagar, Velachery, OMR, Porur, Adyar, and Tambaram.",
   alternates: {
     canonical: "/services/invisible-grills",
   },
   openGraph: {
     title: "Invisible Grills | CSK Safety Nets & Invisible Grills",
     description:
-      "Stainless steel 316 marine-grade invisible grills for balconies, windows, and staircases by CSK Safety Nets & Invisible Grills across Bangalore: Whitefield, Koramangala, Indiranagar, HSR Layout, Electronic City, Marathahalli, and Sarjapur Road.",
+      "Stainless steel 316 marine-grade invisible grills for balconies, windows, and staircases by CSK Safety Nets & Invisible Grills across Chennai: Anna Nagar, T. Nagar, Velachery, OMR, Porur, Adyar, and Tambaram.",
     url: "https://csksafetynets.in/services/invisible-grills",
     images: [
       {
         url: "/images/og-image.webp",
         width: 1200,
         height: 630,
-        alt: "Invisible Grills Bangalore, Karnataka - CSK Safety Nets & Invisible Grills",
+        alt: "Invisible Grills Chennai, Tamil Nadu - CSK Safety Nets & Invisible Grills",
       },
     ],
   },
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Invisible Grills | CSK Safety Nets & Invisible Grills",
     description:
-      "Marine-grade SS316 invisible grills installed across Bangalore serving Whitefield, Koramangala, Indiranagar, HSR Layout, Electronic City, Marathahalli, and Sarjapur Road.",
+      "Marine-grade SS316 invisible grills installed across Chennai serving Anna Nagar, T. Nagar, Velachery, OMR, Porur, Adyar, and Tambaram.",
     images: ["/images/og-image.webp"],
   },
 };
@@ -109,7 +109,7 @@ export default function InvisibleGrillsCategoryPage() {
               <div className="relative h-64 w-full bg-slate-200 overflow-hidden">
                 <Image
                   src={service.image}
-                  alt={`CSK Safety Nets & Invisible Grills - ${service.name} Installation Bangalore, Karnataka`}
+                  alt={`CSK Safety Nets & Invisible Grills - ${service.name} Installation Chennai, Tamil Nadu`}
                   fill
                   sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                   className="object-cover transition-transform duration-500 group-hover:scale-105"

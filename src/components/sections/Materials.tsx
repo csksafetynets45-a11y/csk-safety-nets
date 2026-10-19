@@ -105,7 +105,7 @@ export default function Materials() {
             High-Grade Materials Engineered for High-Rise Safety
           </h2>
           <p className="text-slate-600 text-sm leading-relaxed">
-            Every safety netting mesh, stainless steel cable, and mounting profile installed by CSK Safety Nets & Invisible Grills is tested for tensile stability and outdoor weather endurance across Bangalore.
+            Every safety netting mesh, stainless steel cable, and mounting profile installed by CSK Safety Nets & Invisible Grills is tested for tensile stability and outdoor weather endurance across Chennai.
           </p>
         </div>
 

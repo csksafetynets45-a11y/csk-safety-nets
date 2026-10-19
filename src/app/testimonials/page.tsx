@@ -5,14 +5,14 @@ import TestimonialsClient from "./TestimonialsClient";
 export const metadata: Metadata = {
   title: "Customer Reviews & Testimonials | CSK Safety Nets & Invisible Grills",
   description:
-    "Read 150+ verified reviews for CSK Safety Nets & Invisible Grills across Bangalore, including Whitefield, Koramangala, Indiranagar, HSR Layout, Electronic City, Marathahalli, and Sarjapur Road. Rated 4.9/5 for safety netting and invisible grills.",
+    "Read 150+ verified reviews for CSK Safety Nets & Invisible Grills across Chennai, including Anna Nagar, T. Nagar, Velachery, OMR, Porur, Adyar, and Tambaram. Rated 4.9/5 for safety netting and invisible grills.",
   alternates: {
     canonical: "/testimonials",
   },
   openGraph: {
     title: "Customer Reviews & Testimonials | CSK Safety Nets & Invisible Grills",
     description:
-      "Read 150+ verified reviews for CSK Safety Nets & Invisible Grills across Bangalore, including Whitefield, Koramangala, Indiranagar, HSR Layout, Electronic City, Marathahalli, and Sarjapur Road.",
+      "Read 150+ verified reviews for CSK Safety Nets & Invisible Grills across Chennai, including Anna Nagar, T. Nagar, Velachery, OMR, Porur, Adyar, and Tambaram.",
     url: "https://csksafetynets.in/testimonials",
     images: [
       {
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Customer Reviews & Testimonials | CSK Safety Nets & Invisible Grills",
     description:
-      "Read 150+ verified reviews for CSK Safety Nets & Invisible Grills across Bangalore serving Whitefield, Koramangala, Indiranagar, HSR Layout, Electronic City, Marathahalli, and Sarjapur Road.",
+      "Read 150+ verified reviews for CSK Safety Nets & Invisible Grills across Chennai serving Anna Nagar, T. Nagar, Velachery, OMR, Porur, Adyar, and Tambaram.",
     images: ["/images/og-image.webp"],
   },
 };

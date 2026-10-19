@@ -45,7 +45,7 @@ export async function generateMetadata({ params }: PageProps) {
   }
 
   const title = `${serviceDetail.name} in ${areaDetail.name} | Free Inspection & Same-Day Service - CSK Safety Nets & Invisible Grills`;
-  const description = `Get expert ${serviceDetail.name} installation in ${areaDetail.name}, Bangalore, Karnataka. UV-treated virgin HDPE mesh, SS316 marine-grade invisible grills, 5-year warranty, and free doorstep measurement across ${areaDetail.localities.slice(0, 5).join(", ")}. Call +91 79819 10891.`;
+  const description = `Get expert ${serviceDetail.name} installation in ${areaDetail.name}, Chennai, Tamil Nadu. UV-treated virgin HDPE mesh, SS316 marine-grade invisible grills, 5-year warranty, and free doorstep measurement across ${areaDetail.localities.slice(0, 5).join(", ")}. Call +91 79819 10891.`;
 
   return {
     title,
@@ -143,7 +143,7 @@ export default async function ServiceLocationPage({ params }: PageProps) {
     .filter((s) => s.slug !== serviceDetail.slug)
     .slice(0, 6);
 
-  // Same service in other Bangalore, Karnataka cities
+  // Same service in other Chennai localities
   const sameServiceInOtherAreas = areaDetail.nearbySlugs
     .map((slug) => areasData[slug])
     .filter(Boolean);
@@ -363,7 +363,7 @@ export default async function ServiceLocationPage({ params }: PageProps) {
                 ))}
                 <div className="py-2.5 flex justify-between items-center gap-4">
                   <span className="text-slate-500 font-semibold">Service Region</span>
-                  <span className="text-[#D4AF37] font-bold text-right">{areaDetail.name}, Bangalore, Karnataka</span>
+                  <span className="text-[#D4AF37] font-bold text-right">{areaDetail.name}, Chennai, Tamil Nadu</span>
                 </div>
                 <div className="py-2.5 flex justify-between items-center gap-4">
                   <span className="text-slate-500 font-semibold">Warranty Provided</span>
@@ -536,11 +536,11 @@ export default async function ServiceLocationPage({ params }: PageProps) {
               </div>
             </div>
 
-            {/* Same service in nearby Bangalore, Karnataka cities */}
+            {/* Same service in nearby Chennai localities */}
             <div>
               <h3 className="text-sm font-extrabold uppercase tracking-wider text-slate-800 mb-4 flex items-center gap-2">
                 <MapPin className="w-4 h-4 text-[#D4AF37]" />
-                {serviceDetail.name} in Other Bangalore, Karnataka Cities
+                {serviceDetail.name} in Other Chennai Localities
               </h3>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
                 {sameServiceInOtherAreas.map((city) => (

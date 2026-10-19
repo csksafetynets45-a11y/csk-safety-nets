@@ -14,7 +14,7 @@ const contactFormSchema = z.object({
   phone: z.string().regex(/^[6-9]\d{9}$/, {
     message: "Enter a valid 10-digit Indian mobile number (starts with 6-9).",
   }),
-  area: z.string().min(2, { message: "Please specify your Bangalore, Karnataka neighborhood." }),
+  area: z.string().min(2, { message: "Please specify your Chennai, Tamil Nadu neighborhood." }),
   service: z.string().min(1, { message: "Please select a service category." }),
   message: z.string().optional(),
   botfield: z.string().optional(), // Honeypot spam block field
@@ -114,7 +114,7 @@ export default function ContactForm() {
                 Request a Free On-Site Measurement & Pricing Quote
               </h2>
               <p className="text-slate-300 text-sm leading-relaxed">
-                Fill out the form to schedule a site measurement visit. Our technician will visit your location in Bangalore with material catalogs and share an accurate quotation.
+                Fill out the form to schedule a site measurement visit. Our technician will visit your location in Chennai with material catalogs and share an accurate quotation.
               </p>
             </div>
 
@@ -264,15 +264,15 @@ export default function ContactForm() {
                 </div>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                  {/* Area in Bangalore */}
+                  {/* Area in Chennai */}
                   <div className="flex flex-col gap-1.5">
                     <label htmlFor="area" className="text-xs font-bold text-slate-700 tracking-wide">
-                      Your City or Locality in Bangalore *
+                      Your City or Locality in Chennai *
                     </label>
                     <input
                       type="text"
                       id="area"
-                      placeholder="e.g. Whitefield, Koramangala, Indiranagar, Electronic City, HSR Layout..."
+                      placeholder="e.g. Anna Nagar, T. Nagar, Velachery, OMR, Porur, Adyar, Tambaram..."
                       aria-required="true"
                       aria-invalid={errors.area ? "true" : "false"}
                       aria-describedby={errors.area ? "area-error" : undefined}

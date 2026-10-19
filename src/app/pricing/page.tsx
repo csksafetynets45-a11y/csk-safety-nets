@@ -18,16 +18,16 @@ import { generateBreadcrumbSchema } from "@/utils/schema";
 import ContactForm from "@/components/forms/ContactForm";
 
 export const metadata: Metadata = {
-  title: "Pricing Guide & Estimation | CSK Safety Nets & Invisible Grills Bangalore, Karnataka",
+  title: "Pricing Guide & Estimation | CSK Safety Nets & Invisible Grills Chennai, Tamil Nadu",
   description:
-    "Transparent per-square-foot pricing for balcony safety nets, SS316 invisible grills & drying hangers by CSK Safety Nets & Invisible Grills in Whitefield, Koramangala, Indiranagar, and all across Bangalore.",
+    "Transparent per-square-foot pricing for balcony safety nets, SS316 invisible grills & drying hangers by CSK Safety Nets & Invisible Grills in Anna Nagar, T. Nagar, Velachery, OMR, Porur, and all across Chennai.",
   alternates: {
     canonical: "/pricing",
   },
   openGraph: {
-    title: "Pricing Guide & Estimation | CSK Safety Nets & Invisible Grills Bangalore, Karnataka",
+    title: "Pricing Guide & Estimation | CSK Safety Nets & Invisible Grills Chennai, Tamil Nadu",
     description:
-      "Transparent per-square-foot pricing for balcony safety nets, SS316 invisible grills & drying hangers by CSK Safety Nets & Invisible Grills in Whitefield, Koramangala, Indiranagar, and all across Bangalore.",
+      "Transparent per-square-foot pricing for balcony safety nets, SS316 invisible grills & drying hangers by CSK Safety Nets & Invisible Grills in Anna Nagar, T. Nagar, Velachery, OMR, Porur, and all across Chennai.",
     url: "https://csksafetynets.in/pricing",
     images: [
       {
@@ -40,9 +40,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Pricing Guide & Estimation | CSK Safety Nets & Invisible Grills Bangalore, Karnataka",
+    title: "Pricing Guide & Estimation | CSK Safety Nets & Invisible Grills Chennai, Tamil Nadu",
     description:
-      "Transparent per-square-foot pricing for safety nets, invisible grills & cloth hangers across Whitefield, Koramangala, Indiranagar, HSR Layout, Electronic City, Marathahalli, and Sarjapur Road.",
+      "Transparent per-square-foot pricing for safety nets, invisible grills & cloth hangers across Anna Nagar, T. Nagar, Velachery, OMR, Porur, Adyar, and Tambaram.",
     images: ["/images/og-image.webp"],
   },
 };
@@ -59,7 +59,7 @@ export default function PricingPage() {
       icon: <Ruler className="w-7 h-7 text-[#D4AF37]" />,
       title: "Complimentary Doorstep Laser Measurement",
       description:
-        "Our safety technicians evaluate your balcony, window, or building shaft dimensions using precision laser tools across all 14 Bangalore service zones.",
+        "Our safety technicians evaluate your balcony, window, or building shaft dimensions using precision laser tools across all 14 Chennai service zones.",
     },
     {
       step: "02",
@@ -179,7 +179,7 @@ export default function PricingPage() {
             Clear, Transparent Safety Solutions Pricing
           </h1>
           <p className="text-slate-600 text-sm sm:text-base leading-relaxed">
-            At CSK Safety Nets & Invisible Grills, we maintain an honest, upfront pricing philosophy with zero hidden charges, transparent per-square-foot calculations, and complimentary doorstep laser measurements across all Bangalore neighborhoods.
+            At CSK Safety Nets & Invisible Grills, we maintain an honest, upfront pricing philosophy with zero hidden charges, transparent per-square-foot calculations, and complimentary doorstep laser measurements across all Chennai neighborhoods.
           </p>
         </div>
 
@@ -314,7 +314,7 @@ export default function PricingPage() {
               Book Your Free Laser Inspection Today
             </h2>
             <p className="text-slate-200 text-xs sm:text-sm">
-              Our safety advisors are available 7 days a week across Bangalore. Get exact square-foot pricing with physical wire sample demonstrations.
+              Our safety advisors are available 7 days a week across Chennai. Get exact square-foot pricing with physical wire sample demonstrations.
             </p>
           </div>
           <div className="flex flex-col sm:flex-row gap-3 shrink-0 w-full sm:w-auto">

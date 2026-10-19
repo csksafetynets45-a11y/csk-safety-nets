@@ -5,31 +5,31 @@ import { generateBreadcrumbSchema, generateOrganizationSchema } from "@/utils/sc
 import ContactForm from "@/components/forms/ContactForm";
 
 export const metadata: Metadata = {
-  title: "About CSK Safety Nets & Invisible Grills — Family Safety Specialists Bangalore",
+  title: "About CSK Safety Nets & Invisible Grills — Family Safety Specialists Chennai",
   description:
-    "CSK Safety Nets & Invisible Grills is a Bangalore-based specialist in premium balcony safety nets, child fall protection, pet safety, and SS316 invisible wire grills. Craftsmanship-first approach, written warranty, same-week installation.",
+    "CSK Safety Nets & Invisible Grills is a Chennai-based specialist in premium balcony safety nets, child fall protection, pet safety, and SS316 invisible wire grills. Craftsmanship-first approach, written warranty, same-week installation.",
   alternates: {
     canonical: "/about",
   },
   openGraph: {
-    title: "About CSK Safety Nets & Invisible Grills — Family Safety Specialists Bangalore",
+    title: "About CSK Safety Nets & Invisible Grills — Family Safety Specialists Chennai",
     description:
-      "Built on a commitment to family safety and genuine craftsmanship — CSK Safety Nets delivers premium materials, fast turnaround, and written warranties across Bangalore.",
+      "Built on a commitment to family safety and genuine craftsmanship — CSK Safety Nets delivers premium materials, fast turnaround, and written warranties across Chennai.",
     url: "https://csksafetynets.in/about",
     images: [
       {
         url: "/images/og-image.webp",
         width: 1200,
         height: 630,
-        alt: "About CSK Safety Nets & Invisible Grills — Bangalore, Karnataka",
+        alt: "About CSK Safety Nets & Invisible Grills — Chennai, Tamil Nadu",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "About CSK Safety Nets & Invisible Grills — Bangalore",
+    title: "About CSK Safety Nets & Invisible Grills — Chennai",
     description:
-      "Premium safety nets and invisible grills in Bangalore — family-first focus, craftsmanship-grade materials, same-week installation. Call 7981910891.",
+      "Premium safety nets and invisible grills in Chennai — family-first focus, craftsmanship-grade materials, same-week installation. Call 7981910891.",
     images: ["/images/og-image.webp"],
   },
 };
@@ -72,7 +72,7 @@ export default function AboutPage() {
             Safety That Holds. Quality You Can Feel.
           </h1>
           <p className="text-slate-600 text-sm sm:text-base leading-relaxed">
-            CSK Safety Nets &amp; Invisible Grills is a Bangalore-based family safety specialist. We built our reputation on one principle: every installation must be something a technician is personally proud to hand over. That means premium-grade materials, thorough workmanship, and a written warranty — not vague verbal promises.
+            CSK Safety Nets &amp; Invisible Grills is a Chennai-based family safety specialist. We built our reputation on one principle: every installation must be something a technician is personally proud to hand over. That means premium-grade materials, thorough workmanship, and a written warranty — not vague verbal promises.
           </p>
         </div>
 
@@ -86,7 +86,7 @@ export default function AboutPage() {
                 <span>Why We Do What We Do</span>
               </h2>
               <p className="text-slate-600 text-sm leading-relaxed">
-                Bangalore&apos;s apartment culture has accelerated dramatically — wide open balconies, generous French windows, and multi-floor stairwells are now the norm across Sarjapur Road, Bellandur, Hennur, Rajajinagar, Malleshwaram, and dozens of other localities. These are beautiful features. They are also genuine risks for toddlers and pets who don&apos;t understand height.
+                Chennai&apos;s apartment culture has accelerated dramatically — wide open balconies, generous French windows, and multi-floor stairwells are now the norm across Anna Nagar, T. Nagar, Velachery, OMR, Porur, Adyar, Tambaram, and dozens of other localities. These are beautiful features. They are also genuine risks for toddlers and pets who don&apos;t understand height.
               </p>
               <p className="text-slate-600 text-sm leading-relaxed">
                 We started CSK Safety Nets specifically because we saw families settle for flimsy, poorly anchored nets just to cut costs — nets that sag within months, corrode in the first monsoon, or simply weren&apos;t tensioned correctly from day one. We decided there was a better way: use only 100% virgin HDPE mesh and genuine SS316 marine-grade stainless cables, anchor every point with diamond-core drilled stainless expansion bolts, tension-verify before handover, and back it all with a written replacement warranty. That&apos;s the CSK standard.

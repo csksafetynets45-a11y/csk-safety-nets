@@ -129,7 +129,7 @@ export default function Navbar() {
           {/* Center: Banner statement */}
           <div className="hidden lg:flex items-center gap-2 text-[11px] font-semibold text-red-100 tracking-wide uppercase">
             <Sparkles className="w-3.5 h-3.5 text-[#D4AF37]" />
-            <span>Free Doorstep Inspection · Same-Week Installation · Serving All Bangalore</span>
+            <span>Free Doorstep Inspection · Same-Week Installation · Serving All Chennai</span>
           </div>
 
           {/* Right: WhatsApp & Email */}

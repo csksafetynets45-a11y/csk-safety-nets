@@ -9,7 +9,7 @@ export default function Stats() {
       icon: Shield,
       value: "5,000+",
       label: "Installations Completed",
-      desc: "Balconies, windows, and sports grounds secured across Bangalore",
+      desc: "Balconies, windows, and sports grounds secured across Chennai",
     },
     {
       icon: Users,
@@ -25,9 +25,9 @@ export default function Stats() {
     },
     {
       icon: MapPin,
-      value: "20+",
-      label: "Bangalore Localities",
-      desc: "Fast doorstep coverage from Whitefield & Outer Ring Road (ORR) to Indiranagar & Electronic City",
+      value: "120+",
+      label: "Chennai Localities",
+      desc: "Fast doorstep coverage from OMR & Velachery to Anna Nagar, Porur & Tambaram",
     },
   ];
 
