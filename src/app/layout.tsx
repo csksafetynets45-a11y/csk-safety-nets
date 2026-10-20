@@ -124,6 +124,24 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
         />
 
+        {/* Google tag (gtag.js) - Google Ads: AW-18526075119 */}
+        <Script
+          strategy="afterInteractive"
+          src="https://www.googletagmanager.com/gtag/js?id=AW-18526075119"
+        />
+        <Script
+          id="google-ads-gtag"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'AW-18526075119');
+            `,
+          }}
+        />
+
         <Navbar />
         <main id="main-content" className="flex-grow pt-[84px] sm:pt-[92px]">{children}</main>
         <Footer />
